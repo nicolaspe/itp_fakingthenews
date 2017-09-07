@@ -10,10 +10,10 @@
 3 months before the election, fake news **major engagement** on social media. It wasn't really a concept until before elections.
 
 
-### First Ammendment
+### First Amendment?
 "Where the press is free and every man able to read, all is safe." - Thomas Jefferson
 
-"The man who never looks into a newspaper is better informed than"
+"The man who never looks into a newspaper is better informed than he who reads them" - Thomas Jefferson, 9 years earlier...
 
 - The idea is that an informed society makes democracy work.
 - But now there's less trust than ever in news media outlets!
