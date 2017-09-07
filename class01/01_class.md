@@ -1,4 +1,4 @@
-# Faking the news - Sept 5th
+# Faking the news - Sept 5
 "The whole age of (the) computer has made it where nobody knows exactly what's going on." - Donald J. Trump
 
 **Why???**
@@ -73,14 +73,13 @@ Our final project is to **create and introduce a fake news item**. Reflect on "w
 With this, we can download a video, get a transcript, and edit in any kind of ways!
 
 ### Ex 1
-1. With `youtube-dl <URL>` you download the target video
+1. With `youtube-dl <URL>` download the target video. Add `-f` if you want a specific format option.
+	- (Optional) Get the word-for-word transcript for the video file
+2. Rename transcript or video file.
+3. On the terminal, go to the desired folder and run `videogrep --input <FILENAME> --search 'KEYWORD' --use-transcript --search-type word`
+  - In this case, it was: `videogrep --input debate2.mp4 --search 'bad' --use-transcript --search-type word`
+4. Output file is **supercut.mp4**
 
-Rename transcript or video file.
-> Several errors with ffpmeg D: Trying uninstalling and reinstalling.
-chown pkg lib folder. Still not working
-
-Doesn't work with `3gp`.
-`youtube-dl` doesn't work without `-f`.
 
 ### Assignment
 1. Use `franken` option! Let's you put words on someone's mouth!
