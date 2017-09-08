@@ -22,24 +22,29 @@ I decided to look at the ffmpeg portion of the problem and adopt some more extre
 - `videogrep` does NOT work with .3gp and .webm files
 
 
-## Assignment and experimentation
 
+## Assignment and experimentation
 
 #### *franken* video
 
 I have a love/hate relationship with Taylor Swift('s music). I can't help loving it, but as a feminist, it betrays my very own principles. So I decided to use one of her award acceptance speeches to unveil part of what she really does (with a dose of humor) (at least for me it is hahaha). I chose her speech for the [58th Album of the Year Grammy Award](https://youtu.be/dMCAEUb0h34).
 
-**Cutting the video**:
 I wanted to use only a portion of the video, to make sure that only Taylor Swift would speak, but youtube-dl does not have that option (at least for now). I tried to work around that, feeding it the youtube URL that starts the video at a certain point (adding `?t=52s` at the end of the URL), but that did not work either.
 
->I take credit of the work of other women and undercut their fame and it is the greatest feeling in the world Thank you for the fame for the success for the honor of other women I sidetrack
+The first couple of tries were not successful at all. videogrep would get stuck after "Creating clips", before the "Concatenating clips" would start. I tried erasing the commas, a shorter text, returning to normal supercuts, trying yet again with the debate video we used in class, but nothing would get it past that part. Thankfully, the core principle of computing worked and after restarting everything went great. Well... almost.
 
-`videogrep --input taylorswift_speech.mp4 --search "I take credit of the work of other women and undercut their fame and it is the greatest feeling in the world. Thank you for the fame, for the success, for the honor of other women I sidetrack" --search-type franken --use-transcript`
+![videogrep froze](fake0104.png)
 
-It got stuck. Is it too much? Let's try to avoid the pitfall (commas?). Nope, seemingly got stuck in the same part. Maybe it's too long. Will try with less. Nope, again... 😩
+The transcript picked some weird noises from the beginning as words, so I really need to cut the video (just used iMovie for this). Also, the automatic transcript is not really that good, so I had to and adjust the words so it could be somewhat understood. I also tried with a Cassey Affleck speech, but it was way worse. After an analysis of Taylor's speech, I finally crafted the following message for her to say:
+>I take credit of the work of women, of your accomplishments and fame, and that is the greatest feeling in the world
 
-I'm trying to use the original option, just to create a supercut, but it is getting stuck on the same place. It finds the words, but it does not concatenate the clips.
+```
+videogrep --input taylorspeech.mp4 --transcribe
 
+videogrep --input taylorspeech.mp4 --search 'I take credit of the work of women of your accomplishments and fame and that is the greatest feeling in the world' --search-type franken --use-transcript --padding 15
+```
+
+<iframe src="https://player.vimeo.com/video/233037791" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 #### Potential class project
