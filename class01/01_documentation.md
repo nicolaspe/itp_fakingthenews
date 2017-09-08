@@ -5,22 +5,40 @@
 ## On class
 I had several problems on class while trying to make `youtube-dl` and `videogrep` work.
 
-Had to change ownership of several folders, as I did not have permission to write on them (how this happened is a mystery for now). Between the `brew doctor` and it's documentation file, I found the answer: `sudo chown -R $(whoami)`.
+Had to change ownership of several folders, as I did not have permission to write on them (how this happened is a mystery for now). Between the `brew doctor` and it's [Troubleshooting file](https://docs.brew.sh/Troubleshooting.html), I found the answer: `sudo chown -R $(whoami)`. That solved the "brew link" issue.
 
-<Python not found on typical folder>
-<Python command line exit>
+![Problems](fake0101.png)
 
-> Several errors with ffpmeg D: Trying uninstalling and reinstalling.
-chown pkg lib folder. Still not working
+Still, that was not enough. I kept getting errors I did not know how to handle. When trying to change ownership of the Python folder, I ran into the fact that the specified location `Library/Python` did not exist. So I run Python to find out (learning how to quit Python from the terminal (`exit()`) in the process), and changing ownership of that folder. It may have helped, but I was still running into issues.
 
-**Conclusions**
+![More Python problems](fake0102.png)
+
+I decided to look at the ffmpeg portion of the problem and adopt some more extreme measures. I uninstalled and reinstalled ffmpeg and videogrep, restarted the computer... *et voilá*! One of the many things I did worked and I got my video. (Maybe all of them were needed, maybe it was the magic computer gnomes, I really don't know for sure.)
+
+![Finally worked!](fake0103.png)
+
+**Conclusions** (and other findings):
 - `youtube-dl` needs `-f` options (at least for me)
 - `videogrep` does NOT work with .3gp and .webm files
 
+
 ## Assignment and experimentation
 
+
 #### *franken* video
-This assignment is pretty straightforward.
+
+I have a love/hate relationship with Taylor Swift('s music). I can't help loving it, but as a feminist, it betrays my very own principles. So I decided to use one of her award acceptance speeches to unveil part of what she really does (with a dose of humor) (at least for me it is hahaha). I chose her speech for the [58th Album of the Year Grammy Award](https://youtu.be/dMCAEUb0h34).
+
+**Cutting the video**:
+I wanted to use only a portion of the video, to make sure that only Taylor Swift would speak, but youtube-dl does not have that option (at least for now). I tried to work around that, feeding it the youtube URL that starts the video at a certain point (adding `?t=52s` at the end of the URL), but that did not work either.
+
+>I take credit of the work of other women and undercut their fame and it is the greatest feeling in the world Thank you for the fame for the success for the honor of other women I sidetrack
+
+`videogrep --input taylorswift_speech.mp4 --search "I take credit of the work of other women and undercut their fame and it is the greatest feeling in the world. Thank you for the fame, for the success, for the honor of other women I sidetrack" --search-type franken --use-transcript`
+
+It got stuck. Is it too much? Let's try to avoid the pitfall (commas?). Nope, seemingly got stuck in the same part. Maybe it's too long. Will try with less. Nope, again... 😩
+
+I'm trying to use the original option, just to create a supercut, but it is getting stuck on the same place. It finds the words, but it does not concatenate the clips.
 
 
 

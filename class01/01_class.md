@@ -36,7 +36,7 @@ Edward Bernays, nephew of Sigmund Freud. For WW I created news to inspire americ
 
 Susan Sontag, every photograph is a manipulative act. Technologies that seem to be representative of reality, are kind of shady. *This is the same as with statistics. Data IS a part of reality, but how you show it can skew the perception.*
 
-Now with Machine Learning and AI, forgeries will get even better. Everyone can spot a photoshopped image, there are certain giveaways. But tools are getting better, like **Real-time Facial Reenactment**!!! Pasting a source actor into the face of a target persona.
+Now with Machine Learning and AI, forgeries will get even better. Everyone can spot a photoshopped image, there are certain giveaways. But tools are getting better, like **[Real-time Facial Reenactment](http://www.graphics.stanford.edu/~niessner/thies2016face.html)**!!! Pasting a source actor into the face of a target persona.
 
 
 ### Fact checking
