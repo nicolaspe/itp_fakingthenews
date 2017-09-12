@@ -26,7 +26,7 @@
 Think of 3 pieces of info about yourself: 2 real and 1 fake
 1. I've lived in 3 countries
 - I played with Arcade Fire in a festival
-- One of my best friends is a House Speaker
+- One of my best friends is a Congressman
 
 
 ### Misinformation vs Disinformation
