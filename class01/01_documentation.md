@@ -27,7 +27,7 @@ I decided to look at the ffmpeg portion of the problem and adopt some more extre
 
 #### *franken* video
 
-I have a love/hate relationship with Taylor Swift('s music). I can't help loving it, but as a feminist, it betrays my very own principles. So I decided to use one of her award acceptance speeches to unveil part of what she really does (with a dose of humor) (at least for me it is hahaha). I chose her speech for the [58th Album of the Year Grammy Award](https://youtu.be/dMCAEUb0h34).
+I have a love/hate relationship with Taylor Swift('s music). I can't help loving it, but as a feminist, it betrays my very own principles. So I decided to use one of her award acceptance speeches to unveil part of what she really does and her utilitarian view of feminism (with a dose of humor) (at least for me it is hahaha). For this, her speech for the [58th Album of the Year Grammy Award](https://youtu.be/dMCAEUb0h34) was ideal.
 
 I wanted to use only a portion of the video, to make sure that only Taylor Swift would speak, but youtube-dl does not have that option (at least for now). I tried to work around that, feeding it the youtube URL that starts the video at a certain point (adding `?t=52s` at the end of the URL), but that did not work either.
 
@@ -35,7 +35,7 @@ The first couple of tries were not successful at all. videogrep would get stuck 
 
 ![videogrep froze](fake0104.png)
 
-The transcript picked some weird noises from the beginning as words, so I really need to cut the video (just used iMovie for this). Also, the automatic transcript is not really that good, so I had to and adjust the words so it could be somewhat understood. I also tried with a Cassey Affleck speech, but it was way worse. After an analysis of Taylor's speech, I finally crafted the following message for her to say:
+The transcript picked some weird noises from the beginning as words, so I really need to cut the video (just used iMovie for this). Also, the automatic transcript is not really that good, so I had to and adjust the words so it could be somewhat understood. I also tried with a Casey Affleck speech, addressing the fact that he can be nominated and win an Oscar despite the sexual harassment accusations against him. But his pronunciation and the transcription results were way worse. You need someone who speaks really clearly in order to use the automatic transcript accurately. After an analysis of Taylor's speech, I finally crafted the following message for her to say:
 >I take credit of the work of women, of your accomplishments and fame, and that is the greatest feeling in the world
 
 ```
@@ -47,19 +47,15 @@ videogrep --input taylorspeech.mp4 --search 'I take credit of the work of women 
 <iframe src="https://player.vimeo.com/video/233037791" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
+
 #### Potential class project
-Our creative process for the next few weeks will loosely follow **Baudrillard’s “procession of the simulacra”** (we’ll discuss in more detail next time).
 
-To get started, please sketch a couple paragraphs on **the basic reality you want your project to reflect**. In other words, what are you interested in responding to with your fake news item—perhaps a social issue? A cultural issue? Some problem with the way we are communicating today? To take some examples from the last class:
+For the final project of this course, there's a specific question to address: what basic reality do I want my project to reflect? Most of my work focuses on instigating a reflection on privilege, stereotypes and hegemonic masculinity. But now there is a more pressing matter I would like to cover.
 
-Look into:
-- [The Yes Men’s BBC hoax](https://www.theguardian.com/media/2004/dec/04/india.broadcasting) reflected the injustice and the basic assumption that Union Carbide would escape accountability for the chemical spill in Bhopal.
-- [The Onion’s Abortionplex spoof](http://www.theonion.com/article/planned-parenthood-opens-8-billion-abortionplex-20476) reflected the readiness of some conservatives to believe that Planned Parenthood is about abortion-on-demand.
+Presidential elections are coming up in Chile. The right-wing candidate, former president and garbage person, Sebastián Piñera is currently leading the polls. A person with no ethics whatsoever, someone who's only interested on expanding his own fortune and to govern for the 1%.
 
+But people already know this. He's been publicly called out on several occasions but he diverts attention claiming they're all personal attacks and that everything he does is legal (even if it is not). He also blatantly lies about facts and policies, i.e: one of his leading projects address a non-existant crime rise on the country (even when it was worse under his own previous administration). The fact that so many people defend him so fervently, makes me think it is a futile dispute.
 
+Instead, I want to focus the reflection on the other side, specifically on the *"Frente Amplio"* political coalition. Aside from posing a new alternative to the existing bipartisan system, they are a fresh anti-establishment face which has acted on principle on the few House spots they've managed to win. That said, a major problem of left parties nowadays (in Chile and even worldwide) is a lack of summoning power. Chilean comedian [Beno Espinosa states in an interview](http://www.eldesconcierto.cl/2017/05/09/beno-espinosa-comediante-la-izquierda-no-sabe-reirse-de-sus-propias-contradicciones-por-eso-no-convoca/) that the left has failed to laugh about themselves. They don't address their own contradictions and that alienates people.
 
-#### Readings and thoughts
-
-
-
-####
+Thus, I want to reflect on the incongruities of the left-wing candidate, to show the ability to use that as a means to perfect themselves, and that even if they have these problems that cannot be overlooked, they're nowhere near the deep ethical conflicts the right wing has shown historically.
