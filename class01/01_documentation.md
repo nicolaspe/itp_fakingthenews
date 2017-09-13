@@ -48,7 +48,7 @@ videogrep --input taylorspeech.mp4 --search 'I take credit of the work of women 
 
 
 
-#### Potential class project
+#### Potential class project - Left wing contradictions to revive engagement and closeness
 
 For the final project of this course, there's a specific question to address: what basic reality do I want my project to reflect? Most of my work focuses on instigating a reflection on privilege, stereotypes and hegemonic masculinity. But now there is a more pressing matter I would like to cover.
 
