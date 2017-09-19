@@ -45,10 +45,27 @@ The difference between **misinformation** and **disinformation** is key for the 
 > When the reader buys into the story, it doesn't matter if the news is fake or not, the effect it has is actually real
 
 On the case of the Yes Men:
-1. Reflection on shity
-2. Perverts being the spokesman
+1. Reflection on shitty company
+2. Perverts reality by posing as their spokesman
 3. Masks the lie, for the audience he IS a spokesman for the company!
 
 (The Yes Men have 3 documentaries on the interventions they've made for 15-20 years)
 
 Parody law is our friend! (but if you monetize is a completely different story). Look into the [four factors of fair use](http://fairuse.stanford.edu/overview/fair-use/four-factors/) (and it's completely subjective).
+
+
+### Readings
+
+- Speed takes precedence over truth
+- Doesn't matter if fake news are debunked, they spread like wildfire
+- "Infotaintment" D:
+- Clickbait doesn't work because it doesn't deliver the value it promises.
+- BuzzFeed makes small promises and then overdelivers
+  - This is needed for someone to **share**, and you can't trick that
+
+- Meta fake media: fake news about fake media sites. Analyze which ones gain traction, which ones go unnoticed.
+- Automatic fake news creator? Flood social media with so blatantly fake news people are forced to think about it?
+- Light their fire so they burn themselves?
+
+But... WHAT'S THE REALITY I WANT SOCIETY TO REFLECT?!?!
+- "Chile is falling, what can we do to help?" appeal to the right and turn it against themselves
