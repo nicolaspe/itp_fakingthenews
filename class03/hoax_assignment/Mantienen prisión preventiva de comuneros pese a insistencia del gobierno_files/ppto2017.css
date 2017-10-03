@@ -1,0 +1,16 @@
+iframe.ppto2017 {
+	display: block;
+	height: 1350px;
+	max-width: none;
+	width: 1px;
+    min-width: 100%;
+    *width: 100%;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+@media (max-width: 320px) {
+	iframe.ppto2017 {
+		min-width: 320px;
+		margin: 0 -25px;
+	}
+}

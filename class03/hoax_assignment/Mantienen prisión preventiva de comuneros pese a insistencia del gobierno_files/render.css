@@ -1,0 +1,3965 @@
+em {
+	font-style: italic;
+}
+
+/**Emergencias
+@media screen and (min-width: 1360px) and (max-width: 1546px) {
+  .publi_sky {
+    z-index: 10;
+    left: -105px;
+    /*zoom: 0.9;
+  }
+}
+fin emergencias...*/
+/* soporte 1360 a skycrapper en home */
+@media (max-width: 1359px) {
+	.con_sky .publi_sky {
+		display: none;
+	}
+}
+@media (min-width: 1360px) and (max-width: 1546px) {
+	.con_sky .caja_fondo_goles .row,
+	.con_sky #content .apertura .apertura_cabecera .row {
+	    right: -70px;
+	    position: relative;
+	}
+}
+/* fin soporte 1360 a skycrapper en home */
+
+/*-----------cabecera rusia2018----------*/
+.logo-rusia2018 {
+  position: absolute;
+  right: 0;
+  top: -20px;
+}
+.logo-rusia2018 img {
+  max-width: 70px;
+  height: auto;
+}
+@media (min-width: 600px) {
+  .logo-rusia2018 {
+    top: -40px;
+  }
+  .logo-rusia2018 img {
+      max-width: 100px;
+  }
+}
+#content .apertura_noticias .apertura_cabecera .row.ampliado.fondo .txt {
+  padding: 0 70px 0 0;
+}
+.live-deportivo {
+    border: 1px solid #fff;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.live-deportivo:before {
+    background-color: red;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    margin-right: 7px;
+    width: 10px;
+}
+
+.destacada_not.vista-destacada + .destacada_html > .opta-widget-container {
+    margin-top: -50px !important;
+}
+
+/*-----------Fin cabecera rusia2018----------*/
+
+/*----------- cabecera campeonatos ----------*/
+
+.head_premier_ot {
+	background: #38003C;
+	position: relative;
+}
+
+.head_premier_ot::before {
+	content: "";
+	background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/fondo_fut.png);
+	opacity: 0.08;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.head_premier_ot h2 {
+	color: white;
+    background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/logo_premier.png) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    padding: 5px 25px 5px 10px;
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.head_camp_nacional_ot {
+	background: #043662;
+	position: relative;
+}
+
+.head_camp_nacional_ot::before {
+	content: "";
+	background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/fondo_fut.png);
+	opacity: 0.08;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.head_camp_nacional_ot h2 {
+	color: white;
+    background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/campeonato_nacional.png) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    padding: 5px 25px 5px 10px;
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.head_sudamericano_sub_17 {
+	background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/fondo_sub_17_2017.jpg);
+	position: relative;
+}
+
+.head_sudamericano_sub_17::before {
+	content: "";
+	opacity: 0.08;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.head_sudamericano_sub_17 h2 {
+	color: white;
+	font-size: 24px !important;
+	font-family: sans-serif !important;
+	font-weight: bold !important;
+    background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/logo_sudamericano_sub_17.png) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    padding: 5px 60px 5px 10px;
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.head_copa_chile_ot {
+	background: #043662;
+	position: relative;
+}
+
+.head_copa_chile_ot::before {
+	content: "";
+	background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/fondo_fut.png);
+	opacity: 0.08;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.head_copa_chile_ot h2 {
+	color: white;
+    background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/logo_copa_chile.png) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    padding: 5px 25px 5px 10px;
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+
+.head_la_liga_ot {
+	background: #121417;
+	position: relative;
+}
+
+.head_la_liga_ot::before {
+	content: "";
+	background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/fondo_fut.png);
+	opacity: 0.08;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.head_la_liga_ot h2 {
+	color: white;
+    background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/logo_la_liga.png) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    padding: 5px 25px 5px 10px;
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.head_serie_tim_ot {
+	background: #043769;
+	position: relative;
+}
+
+.head_serie_tim_ot::before {
+	content: "";
+	background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/fondo_fut.png);
+	opacity: 0.08;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.head_serie_tim_ot h2 {
+	color: white;
+    background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/logo_serie_a.png) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    padding: 5px 25px 5px 10px;
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.head_alemana_ot {
+	background: #1E1E1E;
+	position: relative;
+}
+
+.head_alemana_ot::before {
+	content: "";
+	background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/fondo_fut.png);
+	opacity: 0.08;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.head_alemana_ot h2 {
+	color: white;
+    background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/logo_alemana.png) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    padding: 5px 25px 5px 10px;
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.head_champions_ot {
+	background: url(http://especiales.latercera.com/2016/champions/champion-bg.jpg);
+	position: relative;
+}
+
+.head_champions_ot::before {
+	content: "";
+	background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/fondo_fut.png);
+	opacity: 0.08;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.head_champions_ot h2 {
+	color: white;
+    background: url(http://especiales.latercera.com/2016/champions/champions-league.png) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    padding: 10px 25px 10px 10px;
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+    font-family: sans-serif !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+}
+
+.head_partido_dia_ot {
+  background: #043662;
+  position: relative;
+}
+
+.head_partido_dia_ot::before {
+  content: "";
+  background: url(http://especiales.latercera.com/2016/render/img/logos_equipos/fondo_fut.png);
+  opacity: 0.08;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.head_partido_dia_ot h2 {
+  color: white;
+  background:none;
+  padding: 10px 5px 5px 10px;
+}
+
+
+.head_europa_league {
+	background: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/09/15/bg-europa-lg.jpg);
+	position: relative;
+}
+
+.head_europa_league h2 {
+	color: white;
+    background: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/09/15/logo-europa.png) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    padding: 10px 25px 10px 10px;
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+    font-family: sans-serif !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+}
+
+/*-----------Fin cabecera campeonatos ----------*/
+
+
+/*----------------------Estilo Marcador Opta--------------------*/
+
+.opta-widget-container h2 {
+	background: none;
+	background-image: url("http://especiales.latercera.com/2016/marcador-futbol/img/tit_sup.png");	
+	opacity: 0.9;	
+	height: 2px;
+}
+
+.opta-widget-container h2 span {
+	display: none;
+}
+
+.opta-widget-container .timeline .clock {
+	position: relative !important;
+	background: none !important;
+}
+
+body .opta-widget-container {
+	background: url("http://especiales.latercera.com/2016/marcador-futbol/img/fondo_caja.jpg");
+	color: white;
+}
+
+.opta-widget-container .timeline {
+	background: transparent !important;
+	background-image: url("http://especiales.latercera.com/2016/marcador-futbol/img/degradado_fondo_claro.png") !important;
+	padding-bottom: 30px !important;
+	padding-top: 10px !important;
+}
+
+.opta-widget-container .timeline .match-score-details {
+	border-bottom: 1px solid rgba(100, 100, 100, 0.5);
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+.opta-widget-container .timeline .match-score-details .score-line span {
+	color: white;
+}
+.opta-widget-container li abbr {
+	color: white;
+}
+.opta-widget-container .timeline .match-score-details .score-line .score {
+	font-size: 60px !important;
+	font-weight: bold;
+	letter-spacing: -5px;
+}
+
+.opta-widget-container .timeline .match-score-details.hasImg .score-line .home-team {
+	max-width: 25%;
+	float: left;
+	text-align: center;
+	vertical-align: bottom !important;
+	padding-left: 5px !important;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	color: white !important;
+}
+
+.opta-widget-container .timeline .match-score-details.hasImg .score-line .away-team {
+	max-width: 25%;
+	float: right;
+	text-align: center;
+	vertical-align: bottom !important;
+	padding-right: 5px !important;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	color: white !important;
+}
+
+.opta-widget-container .timeline .match-score-details .score-line .home-team {
+	max-width: 25%;
+	float: left;
+	text-align: center;
+	vertical-align: bottom;
+	padding-left: 5px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.opta-widget-container .timeline .match-score-details .score-line .away-team {
+	max-width: 25%;
+	float: right;
+	text-align: center;
+	vertical-align: bottom;
+	padding-right: 5px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+.opta-widget-container .timeline .match-score-details .equipo-local {
+	text-align: center;
+	max-width: 25%;
+
+}
+
+.opta-widget-container .timeline .match-score-details .equipo-visita {
+	width: 25%;
+	float: right;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	top: 0px;
+}
+
+.opta-widget-container .timeline .match-score-details .hometeam-crest, .opta-widget-container .timeline .match-score-details .awayteam-crest {
+	position: static;
+}
+
+.opta-widget-container .timeline .match-score-details .score-line .score {
+	margin-top: -70px;
+}
+
+.opta-widget-container .timeline .match-score-details .goal-scorers-away {
+	margin-top: -15px;
+	width: 49%;
+}
+.opta-widget-container .timeline .match-score-details .goal-scorers-home {
+    float: left;
+    width: 24%;
+    vertical-align: top;
+    text-align: right;
+    font-size: 11px;
+    clear: none;
+}
+
+.opta-widget-container .timeline .match-details {
+	background: white;
+	display: none;
+}
+.opta-widget-container .timeline .clock-period {
+	background: none !important;
+    position: absolute;
+    top: -50px;
+    text-align: center;
+    width: 100%;
+    padding-left: 0px !important;
+    font-size: 16px;
+}
+.opta-widget-container .timeline .timeline-container dt.away-events {
+	top: 45px !important;
+}
+
+.opta-widget-container .timeline .timeline-container {
+	z-index: 10;
+}
+
+.opta-widget-container .timeline .match-score-details .score-line .score {
+	margin-top: 0px;
+	height: 76px;
+	padding-top: 0px;
+	min-width: 165px;
+	color: white !important;
+	position: absolute;
+    top: 10px;
+    left: calc(50% - 80px);
+}
+
+.opta-widget-container .timeline .match-score-details .goal-scorers-home {
+	width: 49%;
+	margin-top: -15px;
+}
+
+.opta-widget-container .timeline .match-score-details {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.opta-widget-container .timeline .clock-time {
+	margin-right: 0px;
+}
+
+	
+	.opta-widget-container .timeline .match-score-details .goal-scorers-away {
+		display: none;
+	}
+	.opta-widget-container .timeline .match-score-details .goal-scorers-home {
+		display: none;
+	}
+
+.opta-widget-container .timeline .match-score-details {
+		padding-top: 60px !important;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+	}
+
+.opta-widget-container .timeline .timeline-graph {
+    border: 1px solid rgba(255,255,255,0.5);
+}
+.opta-widget-container .timeline .timeline-graph span {
+    background-color: #fff;
+    margin-top: -1px;
+}
+
+@media (max-width: 450px) {
+	.opta-widget-container .timeline .match-score-details .goal-scorers-home {
+		display: none;
+	}
+	.opta-widget-container .timeline .match-score-details .goal-scorers-away {	
+		display: none;	
+	}
+	.opta-widget-container .timeline .match-score-details .equipo-local {
+		max-width: 30%;
+		width: 30%;
+	}
+	.opta-widget-container .timeline .match-score-details .equipo-visita {
+		max-width: 30%;
+		width: 30%;
+	}
+	.opta-widget-container .timeline .match-score-details.hasImg .score-line .home-team {
+		max-width: 33%;
+		font-size: 12px;
+	}
+	.opta-widget-container .timeline .match-score-details.hasImg .score-line .away-team {
+		max-width: 33%;
+		font-size: 12px;
+	}
+
+	.opta-widget-container .timeline .match-score-details .score-line .home-team {
+		max-width: 33%;
+		font-size: 12px;
+	}
+	.opta-widget-container .timeline .match-score-details .score-line .away-team {
+		max-width: 33%;
+		font-size: 12px;
+	}
+	.opta-widget-container .timeline .match-score-details .score-line .score {
+		min-width: 100px;	
+	}
+	.opta-widget-container .timeline .match-score-details .equipo-visita {
+		top: 10px;
+	}
+	.opta-widget-container .timeline .match-score-details .equipo-local img {
+		height: 100%;
+		max-height: 60px;
+		height: 60px;
+	}
+	.opta-widget-container .timeline .match-score-details .equipo-visita img {
+		height: 100%;
+		max-height: 60px;
+		height: 60px;
+		margin-top: -10px;
+	}
+	.opta-widget-container .timeline .match-score-details .score-line .score {
+		padding-top: 0px;
+		width: 55
+		% !important;
+	}
+}
+
+.opta-widget-container .opta-widget, .opta-widget-container .standings, .opta-widget-container .standings-container, .opta-widget-container .season-standings, .opta-widget-container .team-container, .opta-widget-container .commentary, .opta-widget-container .goalreplay, .opta-widget-container .comparison, .opta-widget-container .optafacts, .opta-widget-container .ticker, .opta-widget-container .timeline, .opta-widget-container .fixtures, .opta-widget-container .ranking-container, .opta-widget-container .stats, .opta-widget-container .matchstats-teamstats-container, .opta-widget-container .squad, .opta-widget-container .profile, .opta-widget-container .venues, .opta-widget-container .actionareas, .opta-widget-container .averageposition, .opta-widget-container .passingcombination, .opta-widget-container .formation, .opta-widget-container .chalkboard, .opta-widget-container .c_scorecard, .opta-widget-container .teamlist-onerow, .opta-widget-container .teamlist, .opta-widget-container .wagonwheel, .opta-widget-container .rbvis, .opta-widget-container .tracking-player-breakdown, .opta-widget-container .motorsport-liverace .tabs-content, .opta-widget-container .news-article {
+	border: 0px;
+}
+
+/*----------------------Fin Estilo Marcador Opta--------------------*/
+
+/*----------------------Partidos otros bajo----------------------------*/
+
+.head_rusia_ot {
+	background: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2016/10/06/cover-rusia2018-1180x165.jpg);
+}
+
+.head_rusia_ot h2 {
+	color: white;
+    background: url(http://especiales.latercera.com/2016/render/img/logorusia2018.png) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    padding: 5px 25px 5px 10px;
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.bajada_partido_bajo a h3 {
+	font-family: 'Noticia Text',serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 5px 0px 0px !important;
+    color: black;
+}
+
+.bajada_partido_bajo p {
+	color: #484E64;
+    line-height: 1.1em;
+    font-size: 1em;
+    font-family: 'PT Sans',sans-serif;
+    margin-bottom: 10px;
+    min-height: 45px;
+}
+
+span.btn_vivo_scri {
+	color: white;
+    background-color: #CC231E;
+    padding: 17px 10px;
+    display: block;
+    width: 85px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 5px;
+    height: 50px;
+}
+
+.noticia_bl .marcador_opta h2 {
+	display: none !important;
+}
+
+.noticia_bl .marcador_opta .timeline {
+	border-top: 5px solid #CC231E;
+}
+
+.column.izquierda .marcador_opta {
+	margin-top: 20px;
+}
+
+/*-----------------------Partidos otros bajo--------------------------------------*/
+
+/*----------------------- scribealive ----------------------*/
+
+.ficha .cuerpo.central.column.nine div#opta-widget-idx-0 h2 {
+	display: none;
+}
+
+.ficha .cuerpo.central.column.nine div#opta-widget-idx-0 {
+	border-top: 5px solid #CC231E;
+}
+
+/*----------------------- Fin scribealive ----------------------*/
+
+/*------------------------------- Videos en vivo -------------------------------------*/
+
+article.noticia_bl.programas_vivo {
+	background: black;
+}
+
+.wrapper-video {
+    display: block;
+    width: 100%;
+    padding-top: 0px !important;
+}
+.frame16-9 {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.frame16-9 iframe, .frame16-9 video {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.cabecera_vivo_programas {
+	position: relative;
+	width: 100%;
+	height: 50px;
+}
+
+.etiqueta_vivo_programa {
+	position: absolute;
+	background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/themes/latercera/img/f_cat.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: auto 100%;
+	color: white;
+	padding: 5px 35px 5px 15px;
+	font-family: "Utopia-italic";
+	font-size: 19px; 
+	top: 10px;
+	left: -5px;
+}
+
+.descripcion_programa_vivo {
+	padding: 0px 10px 10px 10px;
+}
+
+.descripcion_programa_vivo h2 {
+  color: white;
+  font-family: "Utopia";
+  margin: 0px !important;
+  line-height: 38px;
+  padding-top: 10px;
+}
+
+.descripcion_programa_vivo h3 {
+  color: white;
+  font-size: 14px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  border-left: 5px solid #c41325; 
+  padding-left: 5px;
+  margin: 10px 0px !important;
+}
+
+
+
+article.noticia_bl.programas_vivo.el_deportivo .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com//2016/render/img/logo_deportivo.png);
+	background-repeat: no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+}
+
+article.noticia_bl.programas_vivo.charlas_ted .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logo_tedx.jpg);
+	background-repeat: no-repeat;
+    background-size: auto 60%;
+    background-position: right;
+}
+
+article.noticia_bl.programas_vivo.mouse .cabecera_vivo_programas {
+	background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/06/20/logo-mouse-caja.png);
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position: right;
+    width: calc(100% - 10px);
+}
+
+article.noticia_bl.programas_vivo.exclusiva .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com//2016/render/img/transmision_exclusica.png);
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+    background-position: right;
+    width: calc(100% - 10px);
+}
+
+article.noticia_bl.programas_vivo.lt_3_voz .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com//2016/render/img/logo_3voz.png);
+    background-repeat: no-repeat;
+    background-size: auto 76%;
+    background-position: right;
+    width: calc(100% - 10px);
+    margin-bottom: 5px;
+}
+
+article.noticia_bl.programas_vivo.mundo .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com//2016/render/img/logo_mundo.png);
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+    background-position: right;
+    width: calc(100% - 5px);
+}
+
+article.noticia_bl.programas_vivo.politica .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com//2016/render/img/logo_politica.png);
+    background-repeat: no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    width: calc(100% - 5px);	
+}
+
+article.noticia_bl.programas_vivo.lt_noticias .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com//2016/render/img/logo_noticias.png);
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+    background-position: right;
+    width: calc(100% - 5px);
+}
+
+article.noticia_bl.programas_vivo.debate .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com//2016/render/img/logo_debate.png);
+    background-repeat: no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    width: calc(100% - 10px);
+}
+
+article.noticia_bl.programas_vivo.lt_entrevista .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com//2016/render/img/logo_entrevistas.png);
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+    background-position: right;
+    width: calc(100% - 5px);
+}
+
+article.noticia_bl.programas_vivo.eleccion_2016 .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com/2016/render/img/elecciones/img_logo_elecciones.png);
+    background-repeat: no-repeat;
+    background-size: auto 60px;
+    background-position: right 0px;
+    width: calc(100% - 5px);
+    padding-bottom: 60px;
+}
+
+article.noticia_bl.programas_vivo.eleccion_2016 {
+	background-color: #075B91;
+	border-top: 7px solid #C41325;
+	border-bottom: 2px solid #C41325;
+}
+
+article.noticia_bl.programas_vivo.lt_entrevista {
+	background: #EBEAE5;
+    border: 1px solid #D9DAD5;
+}
+
+article.noticia_bl.programas_vivo.mouse {
+	background-color: #000000;
+    background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/06/20/fondo-mouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article.noticia_bl.programas_vivo.mouse .descripcion_programa_vivo {
+	padding: 10px !important;
+}
+
+article.noticia_bl.programas_vivo.el_deportivo {
+	background-color: #2e95c1;
+    background-image: url(http://especiales.latercera.com//2016/render/img/fondo_deportivo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article.noticia_bl.programas_vivo.lets-picnic .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com/2016/render/img/lets-picnic.png);
+	background-repeat: no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+}
+article.noticia_bl.programas_vivo.lets-picnic {
+	background-color: #2e95c1;
+    background-image: url(http://especiales.latercera.com/2016/render/img/cesped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article.noticia_bl.programas_vivo.lets-picnic .descripcion_programa_vivo h3 {
+	border-color: #f1cb00;
+}
+article.noticia_bl.programas_vivo.festival-vina .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com/2016/render/img/festival-vina.png);
+	background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+}
+article.noticia_bl.programas_vivo.festival-vina {
+	background: rgb(66,191,217);
+	background: -moz-linear-gradient(-45deg,  rgba(66,191,217,1) 50%, rgba(120,144,213,1) 100%);
+	background: -webkit-linear-gradient(-45deg,  rgba(66,191,217,1) 50%,rgba(120,144,213,1) 100%);
+	background: linear-gradient(135deg,  rgba(66,191,217,1) 50%,rgba(120,144,213,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42bfd9', endColorstr='#7890d5',GradientType=1 );
+}
+article.noticia_bl.programas_vivo.festival-vina .descripcion_programa_vivo h3,
+article.noticia_bl.programas_vivo.glamorama-vina .descripcion_programa_vivo h3,
+article.noticia_bl.programas_vivo.voz-vina .descripcion_programa_vivo h3 {
+	border-color: #f7ce70;
+}
+article.noticia_bl.programas_vivo.glamorama-vina .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com/2016/render/img/cabecera-transmision-glamorama.png);
+	background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+}
+article.noticia_bl.programas_vivo.noche-vina .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com/2016/render/img/3anoche.png);
+	background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+}
+article.noticia_bl.programas_vivo.noche-vina .descripcion_programa_vivo h3 {
+	border-color: #CC231E;
+}
+article.noticia_bl.programas_vivo.voz-vina .cabecera_vivo_programas {
+	background-image: url(http://especiales.latercera.com/2016/render/img/3voz-vina.png);
+	background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+}
+article.noticia_bl.programas_vivo.glamorama-vina .etiqueta_vivo_programa,
+article.noticia_bl.programas_vivo.festival-vina .etiqueta_vivo_programa,
+article.noticia_bl.programas_vivo.noche-vina .etiqueta_vivo_programa,
+article.noticia_bl.programas_vivo.voz-vina .etiqueta_vivo_programa {
+	background-image: none;
+	background-color: #f7ce70;
+	padding-right: 15px;
+	color: #000;
+}
+article.noticia_bl.programas_vivo.glamorama-vina .etiqueta_vivo_programa:after,
+article.noticia_bl.programas_vivo.festival-vina .etiqueta_vivo_programa:after,
+article.noticia_bl.programas_vivo.noche-vina .etiqueta_vivo_programa:after,
+article.noticia_bl.programas_vivo.voz-vina .etiqueta_vivo_programa:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 0;
+	right: -11px;
+	border-style: solid;
+	border-width: 29px 11px 0 0;
+	border-color: #f7ce70 transparent transparent transparent;
+}
+article.noticia_bl.programas_vivo.noche-vina .etiqueta_vivo_programa {
+	background-color: #CC231E;
+	color: #fff;
+}
+article.noticia_bl.programas_vivo.noche-vina .etiqueta_vivo_programa:after {
+	border-color: #CC231E transparent transparent transparent;
+}
+.el_deportivo .descripcion_programa_vivo {
+	padding: 10px;
+	background-color: rgba(0,149,204,0.6);
+}
+.el_deportivo .descripcion_programa_vivo h2 {
+	font-size: 26px !important;
+}
+.el_deportivo .descripcion_programa_vivo h3 {
+	margin-top: 5px 0px !important;
+}
+article.noticia_bl.programas_vivo.lt_3_voz {
+	background-color: #23262c;
+    background-image: url(http://especiales.latercera.com//2016/render/img/fondo_3_voz.jpg);
+    background-repeat: repeat-y;
+}
+article.noticia_bl.programas_vivo.exclusiva {
+	background-color: #181819;
+}
+.noticia_bl.programas_vivo.exclusiva {
+	border: 15px solid #CC231E;
+}
+.exclusiva .descripcion_programa_vivo h2 {
+	padding-top: 10px;
+}
+article.noticia_bl.programas_vivo.lt_3_voz:after, article.noticia_bl.programas_vivo.el_deportivo:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.lt_3_voz .descripcion_programa_vivo {
+	padding: 15px;
+	background-color: rgba(0,0,0,0.6);
+}
+.lt_3_voz .descripcion_programa_vivo h2 {
+	font-size: 24px !important;
+}
+
+/*--------------------- Estilos Rudo ----------------------------*/
+
+.opta-widget-container .timeline .timeline-graph {
+    border: 1px solid rgba(255,255,255,0.5);
+}
+.opta-widget-container .timeline .timeline-graph span {
+    background-color: #fff;
+    margin-top: -1px;
+}
+
+/*--------------------- Fin Estilo Rudo ------------------------*/
+
+/*------------------------------- Fin Videos en vivo ---------------------------------*/
+
+/*--------------------- Estilos Caja Suplementos ----------------------------*/
+#content.portada .dd_clean .bl_tematico .noticia_tematica_destacada .bl_comparte {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+#content.portada .dd_clean .bl_tematico .noticia_tematica_destacada .bl_comparte ul li {
+	border-color: rgba(255, 255, 255, 0.3);
+	border-style: solid;
+}
+.tematico.dd_clean .bl_tematico {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#content.portada .dd_clean .noticia_tematica img {
+    margin-bottom: 10px;
+}
+.tematico.dd_clean .cab_tematico:after {
+	border-bottom: 1px solid #d9d9d9;
+}
+#content.portada .dd_clean .noticia_tematica img {
+    height: 70px;
+    margin-top: 0px;
+    padding-left: 10px;
+    width: 110px;
+}
+.dd_clean .noticia_tematica {
+    border-bottom: 1px solid #dedce7;
+    padding: 10px;
+    min-height: 90px;
+}
+.tematico.dd_clean .bl_tematico .noticia_tematica_destacada .img {
+    min-height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+#content.portada .dd_clean .bl_tematico .noticia_tematica_destacada div.dd_bottom {
+    bottom: 0;
+    padding: 0 20px;
+    position: absolute !important;
+    width: 100%;
+    left: 0;
+}
+/*------------------------------- Fin Caja Suplementos ---------------------------------*/
+
+/*-------------------------------- Caja goles campeonato nacional ---------------------------- */
+
+.caja_fondo_goles {
+	background-color: #F5F5F5;
+}
+
+.caja_partido {
+	width: calc(100% - 10px);
+	height: 160px;
+	background-size: 100% auto;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 250px;
+}
+
+.ico_play {
+	height: 80px;
+	width: 100%;
+	text-align: right;
+	position: relative;
+	background: rgba(0,0,0,0.3);goo
+}
+
+.primera .ico_play:before {
+	content: "";
+    width: 0;
+    height: 0;
+    border-top: 70px solid #C41325;
+    border-left: 70px solid transparent;
+    position: absolute;
+    right: 0px;
+    -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+a.caja_goles {
+	display: block;
+}
+
+a.caja_goles:hover .primera .ico_play:before {
+	content: "";
+    width: 0;
+    height: 0;
+    border-top: 85px solid #C41325;
+    border-left: 85px solid transparent;
+    position: absolute;
+    right: 0px;
+}
+
+.primerab .ico_play:before {
+	content: "";
+    width: 0;
+    height: 0;
+    border-top: 70px solid #043662;
+    border-left: 70px solid transparent;
+    position: absolute;
+    right: 0px;
+    -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+a.caja_goles:hover .primerab .ico_play:before {
+	content: "";
+    width: 0;
+    height: 0;
+    border-top: 85px solid #043662;
+    border-left: 85px solid transparent;
+    position: absolute;
+    right: 0px;
+}
+
+.ico_play:after {
+	content: "";
+    width: 55px;
+    height: 80px;
+    background: url(http://especiales.latercera.com/2016/caja_goles/ico_play.png) 0px 9px no-repeat;
+    position: absolute;
+    right: 0px;
+}
+
+.tx_partidos {
+	height: 80px;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.3)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+a.caja_goles {
+	text-decoration: none;
+}
+
+.tx_partidos h3 {
+	font-family: 'PT Sans', sans-serif !important; 
+    margin: 0px 10px !important;
+    color: white;
+    font-weight: 900;
+    padding: 0px 0px;
+    text-transform: uppercase;
+    font-size: 17px !important;
+}
+
+.tx_partidos h3:nth-child(1) {
+	padding-top: 30px;
+    border-bottom: 1px solid white;
+    position: relative;
+    margin-bottom: 3px !important;
+}
+
+.primera .tx_partidos h3:nth-child(1):before {
+	content: "Primera Divisi\00F3n";
+    background: #C41325;
+    position: absolute;
+    top: 8px;
+    font-weight: 700;
+    padding: 0px 5px;
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+.primerab .tx_partidos h3:nth-child(1):before {
+	content: "Primera B";
+    background: #043662;
+    position: absolute;
+    top: 8px;
+    font-weight: 700;
+    padding: 0px 5px;
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+.caja_goles_cam {
+    padding: 0 10px;
+}
+
+.tit_goles {
+	width: 100%;
+	background: url(http://especiales.latercera.com/2016/caja_goles/gol_portada.png) right top;
+	position: relative;
+	height: 57px;
+	margin-bottom: 10px;
+}
+
+.tit_goles:before {
+	content: "";
+	right: 0px;
+	position: absolute;
+	background: url(http://especiales.latercera.com/2016/caja_goles/logo_cdf.png) center center no-repeat;
+	height: 57px;
+	width: 100px;
+}
+
+.tx_tit_goles {
+	width: 60%;
+	background: #C41325;
+	position: relative;
+	height: 57px;
+}
+
+.tx_tit_goles:before {
+	content: "";
+	position: absolute;
+	right: -30px;
+	width: 0;
+    height: 0;
+    border-top: 57px solid #C41325; 
+    border-right: 30px solid transparent;
+}
+
+.tx_tit_goles h2 {
+	 color: white;
+	 margin: 0px !important;
+	 font-family: Helvetica, Arial, sans-serif !important;
+	 padding-left: 20px;
+	 text-transform: uppercase;
+	 font-weight: 700 !important;
+	 padding-top: 16px;
+	 font-size: 24px !important;
+}
+
+.tx_tit_goles h2 span {
+	font-weight: 300;
+}
+
+.tit_goles.primera_b .tx_tit_goles {
+	background: #CC231E;
+}
+
+.tit_goles.primera_b .tx_tit_goles:before {
+	border-top: 57px solid #043662; 
+}
+
+
+.caja_partido.ver_ver {
+	width: 100%;
+	height: 80px;
+	border-bottom: 4px solid #C41325;
+}
+
+.caja_partido.ver_ver.primerab {
+	width: 100%;
+	height: 80px;
+	border-bottom: 4px solid #043662;
+}
+
+.caja_partido.ver_ver .ico_play {
+	height: 0px;
+}
+
+.caja_partido.ver_ver .tx_partidos h3 {
+	margin: 0px 60px 0px 10px;
+}
+
+.caja_partido.ver_ver .tx_partidos h3:nth-child(1):before {
+	right: -40px;
+    top: 60px;
+}
+
+.caja_lateral {
+	max-height: 260px;
+	overflow: auto;
+}
+
+.caja_goles_cam .owl-prev {
+    position: absolute;
+    top: 55px;
+    left: -10px;
+    height: 50px;
+    width: 50px;
+    color: transparent;
+    background: url("http://especiales.latercera.com//2016/render/img/arrow_prev.png") no-repeat center #CC231E;
+    opacity: 0.7;
+    -webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.caja_goles_cam .owl-prev:hover {
+	opacity: 1;
+}
+
+.caja_goles_cam .owl-next {
+    position: absolute;
+    top: 55px;
+    right: -10px;
+    height: 50px;
+    width: 50px;
+    color: transparent;
+    background: url("http://especiales.latercera.com//2016/render/img/arrow_next.png") no-repeat center #CC231E;
+    opacity: 0.7;
+    -webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.caja_goles_cam .owl-next:hover {
+	opacity: 1;
+}
+
+@media (max-width: 510px) {
+	.tx_tit_goles h2 {
+		padding-top: 4px;
+	}
+}
+
+@media (max-width: 438px) {
+	.tx_tit_goles h2 {
+		padding-top: 8px;
+		font-size: 20px !important;
+	}
+}
+
+/*------------------- Fin caja goles campeonato ------------------ */
+
+
+/*--------- Pruebas especial  -----------*/
+
+.pru_esp_1	{
+	width: 100%;
+	background: red;
+	text-align: center;
+	color: white;
+}
+
+/*--------- Pruebas especial  -----------*/
+
+
+/*---------- Caja video secciones -------------*/
+
+.video-links {
+	max-height: 115px;
+	overflow-y: auto;
+	background-color: #454b5c;
+	margin-bottom: 5px;
+}
+.article-box .video-links {
+	max-height: none;
+	margin-bottom: 15px;
+}
+.video-links li {
+	list-style-type: none;
+	margin-bottom: 1px;
+}
+.video-links li a {
+	display: block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 6px 10px;
+	background-color: #3a3f4e; 
+	color: #7c8298;
+	font-family: sans-serif;
+	font-weight: bold;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+.video-links li a:hover,
+.video-links li a:focus {
+	background-color: #2e3240;
+	color: #fff;
+}
+.video-links li a span {
+	font-size: 10px;
+	padding-left: 2px;
+}
+.video-links li a span:before {
+	content: "\007E";
+	margin-right: 4px;
+	font-size: 14px;
+}
+.video-links li a:hover span,
+.video-links li a:focus span {
+	color: #c41325;
+}
+
+a.control-font {
+	color: gray;
+    background: wheat;
+    border: 1px solid darkgray;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/*---------- Fin Caja video secciones -------------*/
+
+/*---------------- Caja marcador html -----------------*/
+
+
+/*--- Equipo Chile ---*/
+
+.escudo_equipo.san_luis {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/san_luis.png);
+}
+
+.escudo_equipo.u_catolica {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/u_catolica.png);
+}
+
+.escudo_equipo.u_chile {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/u_chile.png);
+}
+
+.escudo_equipo.cobreloa {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/cobreloa.png);
+}
+
+.escudo_equipo.colo_colo {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/colo_colo.png);
+}
+
+.escudo_equipo.u_espanola {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/u_espanola.png);
+}
+
+.escudo_equipo.palestino {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/palestino.png);
+}
+
+.escudo_equipo.everton {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/everton.png);
+}
+
+.escudo_equipo.audax {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/audax.png);
+}
+
+.escudo_equipo.cobresal {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/cobresal.png);
+}
+
+/*-- Equipos sudamerica --*/
+
+.escudo_equipo.uruguay {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/uruguay.png);
+	background-size: 70% auto;
+}
+
+.escudo_equipo.ecuador {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/ecuador.png);
+	background-size: 70% auto;
+}
+
+.escudo_equipo.chile {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/chile.png);
+	background-size: 70% auto;
+}
+
+.escudo_equipo.colombia {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/colombia.png);
+	background-size: 70% auto;
+}
+
+.escudo_equipo.bolivia {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/bolivia.png);
+	background-size: 70% auto;
+}
+
+.escudo_equipo.venezuela {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/venezuela.png);
+	background-size: 70% auto;
+}
+
+.escudo_equipo.argentina {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/argentina.png);
+	background-size: 70% auto;
+}
+
+.escudo_equipo.paraguay {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/paraguay.png);
+	background-size: 70% auto;
+}
+
+.escudo_equipo.peru {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/peru.png);
+	background-size: 70% auto;
+}
+
+.escudo_equipo.brasil {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/brasil.png);
+	background-size: 70% auto;
+}
+
+/*-- Argentina --*/
+
+.escudo_equipo.s_lorenzo_almagro {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/s_lorenzo_almagro.png);
+}
+
+/*-- Bulgaro --*/
+
+.escudo_equipo.ludorogets {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/ludorogets.png);
+}
+
+/*-- Croacia --*/
+
+.escudo_equipo.dinamo_zagreb {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/dinamo_zagreb.png);
+}
+
+/*-- España --*/
+
+.escudo_equipo.sevilla {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/sevilla.png);
+}
+
+.escudo_equipo.barcelona {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/barcelona.png);
+}
+
+/*-- Alemania --*/
+
+.escudo_equipo.leverkusen {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/leverkusen.png);
+}
+
+.escudo_equipo.bayern_munich {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/bayern_munich.png);
+}
+
+/*-- Inglaterra --*/
+
+.escudo_equipo.tottenham {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/tottenham.png);
+}
+
+.escudo_equipo.m_city {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/m_city.png);
+}
+
+.escudo_equipo.arsenal {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/arsenal.png);
+}
+
+/*-- Paises Bajos --*/
+
+.escudo_equipo.psv {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/psv.png);
+}
+
+
+
+.img_fondo_marcador {
+	background-image: url(http://especiales.latercera.com/2016/marcador-futbol/img/fondo_caja.jpg);
+	background-size: cover;
+	border-top: 5px solid #CC231E;
+}
+
+.marcador_html {
+	width: 100%;
+	position: relative;
+	background-image: url("http://especiales.latercera.com/2016/marcador-futbol/img/degradado_fondo_claro.png") !important;
+}
+.escudo_equipo {
+	width: 30%;
+	height: 140px;
+	background-position: center;
+	float: left;
+	background-size: auto 60%;
+	background-repeat: no-repeat;
+	position: relative;
+	background-position-y: 15px; 
+}
+
+.escudo_equipo h4 {
+	text-align: center;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    top: 105px;
+    width: calc(100% - 10px);
+    font-weight: bold;
+    padding: 0px 5px;
+    margin:0px;
+}
+
+.marcador_partido {
+	width: 40%;
+	float: left;
+	text-align: center;
+	color: white;
+}
+
+.marcador_partido h3 {
+	font-family: sans-serif !important;
+    font-weight: bold;
+    font-size: 60px !important; 
+    margin-bottom: 0px !important;
+    margin-top: 20px;
+    letter-spacing: -5px;
+}
+
+.marcador_partido p {
+    font-family: sans-serif !important;
+    font-size: 22px !important;
+    margin-top: 0px;
+}
+
+.marcador_html:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.marcadorPersonalizadoWrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+padding-top: 25px;
+height: 0;
+}
+.marcadorPersonalizadoWrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 145px;
+}
+
+.marcador_opta {
+	height: 160px;
+}
+
+body.body_sin_margen {
+	margin: 0px;
+}
+
+
+@media (max-width: 340px) {
+	.escudo_equipo  {
+		background-size: auto 50%;
+		height: 120px;
+	}
+	.marcador_partido h3 {
+		font-size: 55px !important;
+	}
+	.escudo_equipo h4 {
+		top: 85px;
+		font-weight: normal;
+	}
+}
+
+@media (max-width: 300px) {
+	.escudo_equipo  {
+		background-size: auto 30%;
+
+	}
+	.marcador_partido h3 {
+		font-size: 40px !important;
+	    letter-spacing: -5px;
+	}
+	.escudo_equipo h4 {
+		top: 65px;
+		font-weight: normal;
+		font-size: 12px;
+	}
+}
+/*---------------- Fin faja marcador html -----------------*/
+
+/*-------------- Challenger Santiago ----------------*/
+
+.cabecera_challenger {
+	width: 100%;
+	background-color: #55a51e;
+}
+
+.cabecera_challenger h1 {
+	color: white;
+    font-family: sans-serif !important;
+    font-size: 26px !important;
+    background-image: url(http://especiales.latercera.com/2016/render/img/logo_challenger.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 10px 160px 10px 10px;
+    margin-bottom: 0px !important;
+    background-size: auto 35px;
+}
+
+.not_principal_challenger {
+	height: 300px;
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+}
+
+.not_principal_challenger::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	background: rgba(0,0,0,0);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(26%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+.info_principal_chall {
+	position: absolute;
+	bottom: 0px;
+	padding: 20px;
+	width: 100%;
+}
+
+.not_challenger_ant {
+	border-top: 5px solid #55A51E;
+}
+
+.not_principal_challenger h2 {
+	color: white;
+	width: 100%;
+	font-size: 30px !important;
+	margin-bottom: 0px !important;
+	font-weight: bold !important;
+}
+
+.not_principal_challenger p {
+	font-family: "Utopia";
+    font-size: 16px;
+    line-height: 1.2;
+    color: white;
+}
+
+.cabecera_challenger h1 span {
+	font-weight: bold;
+}
+
+.challenger_03::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+
+.not_challenger_02 {
+	width: 100%;
+	position: relative;
+	padding: 5px 5px 10px 5px;
+    border-bottom: 1px solid #D8D8DA;
+}
+
+.not_challenger_02::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.img_not_chal {
+	width: calc(35% - 20px);
+	margin: 10px;
+	height: 70px;
+	float: left;
+	background-size: cover;
+	background-position: center center;
+}
+
+.tx_img_challenger {
+	width: 65%;
+	float: left;
+}
+
+.tx_img_challenger a h3 {
+	color: black;
+}
+
+.tx_img_challenger a:hover h3 {
+	color: #484E64;
+}
+
+.tx_img_challenger h3 {
+	margin: 0px !important;
+    font-weight: bold;
+    font-size: 20px !important;
+    padding: 5px 5px 0px 5px;
+    color: 
+}
+
+.tx_img_challenger p {
+	margin: 0px !important;	
+	padding: 0px 5px 5px 5px;
+	color: #484E64 !important;
+}
+
+.columna_challenger {
+	width: 100%;
+	position: relative;
+}
+
+.video_challenger {
+	width: 100%;
+	position: relative;
+}
+
+.video_challenger span.epigrafe {
+	position: absolute !important;
+    top: -10px;
+    left: -5px;
+}
+
+.ft_colum_challenger {
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 0px;
+	padding-top: 65px;
+}
+
+.img_not_03 {
+	padding-bottom: 25px;
+	border-left: 1px solid #D8D8DA;
+	border-right: 1px solid #D8D8DA;
+}
+
+.img_not_03 h4 {
+	text-align: center;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.challenger_caja {
+	margin-bottom: 20px;
+}
+
+.challenger_caja::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+
+.etiqueta_columna_programa {
+	position: absolute;
+    background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/themes/latercera/img/f_cat.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+    color: white;
+    padding: 5px 35px 5px 15px;
+    font-family: "Utopia-italic";
+    font-size: 19px;
+    top: -10px;
+    left: -5px;
+}
+
+/*-------------- Challenger Santiago ----------------*/
+
+
+/*-------------- Elecciones paso de personas ---------------*/
+
+iframe.dongabriel {
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+iframe.especial_resultados_elecciones {
+	width: 100%;
+	height: 320px;
+}
+
+@media (max-width: 767px) {
+	iframe.especial_resultados_elecciones {
+	width: 100%;
+	height: 670px;
+	}
+}
+
+/*-------------- Elecciones paso de personas ---------------*/
+
+
+/*------- Tabla responsive ------*/
+
+.table_responsive {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	overflow-x: scroll;
+    overflow-y: hidden;
+    border: 1px solid #ddd;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+    -webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+/*------- Fin Tabla responsive ------*/
+
+
+/*------- Cabecera elescciones eeuu --------*/
+
+.cabecera_eleciones_eeuu {
+	border-top: 2px solid #cc231e;
+	border-bottom: 8px solid #cc231e;
+	width: 100%;
+	position: relative;
+	background-image: url(http://especiales.latercera.com/2016/render/img/elecciones/fondo-candidatos.jpg);
+	background-position: right top;
+}
+
+.cabecera_eleciones_eeuu::before {
+	content: "";
+	position: absolute;
+	right: 0px;
+	width: 176px;
+	height: 62px;
+	bottom: 12px;
+	background: url(http://especiales.latercera.com/2016/render/img/elecciones/logo_santander.png);
+}
+
+a.lk_santander {
+	position: absolute;
+	right: 0px;
+	width: 176px;
+	height: 62px;
+	bottom: 12px;
+}
+
+.tx_elec_eeuu h2 {
+	font-family: sans-serif !important;
+	font-weight: bold !important;
+	text-transform: uppercase;
+	color: white;
+	padding-left: 10px;
+	margin: 15px 0px !important;
+	font-size: 21px !important;
+}
+
+.tx_elec_eeuu h2 span {
+	background-color: #cc231e;
+	padding: 5px;
+}
+
+.pie_elec_eeuu {
+	background-image: url(http://especiales.latercera.com/2016/render/img/elecciones/pie_bajop_01.png);
+	background-position: right;
+	height: 20px;
+	width: 100%;
+	border-bottom: 6px solid white;
+}
+
+.column.izquierda .tx_elec_eeuu h2 {
+	width: 300px;
+	font-size: 19px !important;
+}
+
+.column.izquierda .tx_elec_eeuu h2 span {
+	line-height: 40px;
+}
+
+.column.izquierda .cabecera_eleciones_eeuu {
+	background-position: left;
+}
+
+.column.izquierda .cabecera_eleciones_eeuu::before {
+	bottom: 6px;
+}
+
+.cabecera_eleciones_eeuu::before {
+	display: none;
+}
+
+@media (max-width: 1180px) {
+	.tx_elec_eeuu h2 {
+		max-width: 370px;
+    	margin: 5px 0px 10px 0px !important;
+	}
+	.tx_elec_eeuu h2 span {
+		padding: 2px 5px;
+    	line-height: 30px;
+	}
+	.column.izquierda .tx_elec_eeuu h2  {
+		width: 200px;
+	}
+}
+
+
+@media (max-width: 1050px) {
+	.cabecera_eleciones_eeuu {
+		background-position: left bottom;
+	}
+}
+
+@media (max-width: 935px) {
+	.tx_elec_eeuu h2 {
+		margin-bottom: 25px !important;
+	}
+	.pie_elec_eeuu {
+		background-position: left !important;
+	}
+	.cabecera_eleciones_eeuu::before {
+		bottom: 6px !important;
+	}
+}
+
+@media (max-width: 420px) {
+	.tx_elec_eeuu h2 {
+		max-width: 250px;
+	    margin-bottom: 55px !important;
+	    text-align: center;
+	    padding-left: 0px;
+	    margin-left: auto !important;
+	    margin-right: auto !important;
+	}
+	.tx_elec_eeuu h2 span {
+		line-height: 40px;
+	}
+	.cabecera_eleciones_eeuu::before {
+		bottom: 6px !important;
+	    width: 100%;
+	    background-color: red;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	}
+	
+}
+
+/*------- Fin Cabecera elescciones eeuu --------*/
+
+/*------- Especial bianchi --------*/
+
+.et_sup {
+    width: 100%;
+    background-color: rgb(153, 189, 56);
+    background-image: url(http://especiales.latercera.com/2016/mediocontrauno/img-twitter.png);
+    background-size: auto 200%;
+    position: relative;
+    background-repeat: repeat-x;
+    margin-bottom: 25px;
+}
+
+.et_sup::before {
+    content: "";
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    background: url(http://especiales.latercera.com/2016/mediocontrauno/felipe_b.png) 100% center / auto 100% no-repeat;
+    background-position: 100% center;
+    border-bottom: 1px solid rgb(229, 230, 232);
+}
+
+.et_sup::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    border-top: 1px solid rgb(229, 230, 232);
+}
+
+.et_sup h2 {
+    color: rgb(72, 78, 100);
+    font-family: "PT Sans", sans-serif !important;
+    padding: 5px 10px;
+    margin: 0px !important;
+    font-weight: bold !important;
+}
+
+.et_sup h2 span.tx_white {
+    color: white;
+}
+
+.not_cat.deportesmedio-contra-uno span.fond {
+	display: none !important;
+}
+
+.not_cat.deportesmedio-contra-uno::after {
+	display: none !important;
+}
+
+@import 'https://fonts.googleapis.com/css?family=PT+Sans:400,700';
+
+.fran-gren {
+	width: 100%;
+    height: 100px;
+    background-color: #99bd38;
+    background-image: url(http://especiales.latercera.com/2016/mediocontrauno/img-twitter.png);
+    background-repeat: repeat-x;
+    margin-top: 40px;
+    position: relative;
+}
+
+.fran-gren:after {
+	content: "";
+    border-top: 1px solid gray;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+}
+
+.fran-gren:before {
+	content: "";
+    border-bottom: 1px solid gray;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    height: 160px;
+}
+
+.tit_bian {
+	position: relative;
+}
+
+.tit_bian h2 {
+	font-size: 60px !important;
+	font-weight: 700 !important;
+	color: #484E64;
+	font-family: 'PT Sans', sans-serif !important;
+	margin-top: 20px !important;
+	margin-bottom: 0px !important;
+	margin-right: 180px !important;
+	line-height: 45px !important;
+}
+
+.tit_bian:before {
+	content: "";
+	background: url(http://especiales.latercera.com/2016/mediocontrauno/felipe_b.png) no-repeat;
+	background-position: 90%;
+	height: 250px;
+	width: 170px;
+	position: absolute;
+	right: 0px;
+	bottom: -7px;
+}
+
+.tit_bian h2 span.tx_green {
+	color: #99bd38;
+}
+
+.tit_bian h3 {
+	font-size: 28px !important;
+	font-weight: 400;
+	color: #484E64;
+	font-family: 'PT Sans', sans-serif !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	margin-right: 180px !important;
+	line-height: 30px !important;
+}
+
+.menu_pricipal {
+	width: 100%;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding-bottom: 10px;
+}
+
+
+.menu_pricipal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu_pricipal li {
+    float: left;
+}
+
+.menu_pricipal li a {
+    display: block;
+    text-align: center;
+    padding: 10px 15px 0px 15px;
+    font-size: 1em;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color: #484E64;
+    text-decoration: none;
+}
+
+.menu_pricipal li a img {
+    max-width: 200px;
+    max-height: 32px;
+}
+
+.menu_pricipal li a:hover {
+	color: #c41325;
+}
+
+.art_noticias {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.art_top {
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top: 1px solid lightgray;
+}
+
+.img-art-top {
+	width: 33%;
+	float: left;
+}
+
+.tx-art-top {
+	width: calc(100% - 35%);
+	float: left;
+	margin-left: 2%;
+}
+
+.tx-art-top a {
+	text-decoration: none;
+}
+
+.tx-art-top a h3 {
+	color: #484E64;
+	font-family: 'Noticia Text',serif;
+	font-size: 26px;
+	font-weight: 700;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 30px;
+}
+
+.tx-art-top a:hover h3 {
+	color: #c41325;
+}
+
+.tx-art-top p {
+	color: #484E64;
+	font-family: 'PT Sans', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    margin-bottom: -4px;
+    overflow: hidden;
+}
+
+.clear {
+	clear: both;
+}
+
+.tit_bian h4 {
+	color: white;
+    text-align: right;
+    padding-right: 180px;
+    float: right;
+    width: 420px;
+    margin: 0px !important;
+    font-size: 16px !important;
+    font-family: 'PT Sans', sans-serif !important;
+    margin-top: 3px !important;
+    font-weight: lighter;
+    position: absolute;
+    top: -110px;
+    right: 0px;
+}
+
+.html-especial {
+	border-bottom: 1px solid gray;
+}
+
+.tit_bian {
+	max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+	.tit_bian h2 {
+		margin-right: 0px !important;
+	}
+	.tit_bian h3 {
+		margin-right: 0px !important;
+	}
+	.tit_bian:before {
+		display: none !important;
+	}
+	.img-art-top {
+		width: 100% !important;
+		margin-bottom: 10px !important;
+	}
+	.tx-art-top {
+		width: 100% !important;
+	}
+	.art_top {
+		width: calc(100% - 20px) !important;
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+	.tit_bian h4{
+		padding-right: 20px !important;
+		width: 280px !important;
+	}
+}
+
+/*------- Fin especial bianchi --------*/
+/*------- Indicadores economicos --------*/
+iframe.iframeIndicadores {
+    margin: 0 -15px;
+    max-width: initial;
+    width: auto;
+    height: 5450px;
+    min-width: 100%;
+}
+@media (min-width: 550px) {
+	iframe.iframeIndicadores {
+	    height: 4570px;
+	}
+}
+@media (min-width: 768px) {
+	iframe.iframeIndicadores {
+	    height: 3100px;
+	    margin: 0;
+	}
+}
+@media (min-width: 801px) {
+	iframe.iframeIndicadores {
+	    height: 4990px;
+	}
+}
+@media (min-width: 992px) {
+	iframe.iframeIndicadores {
+	    height: 4530px;
+	}	
+}
+@media (min-width: 1111px) {
+	iframe.iframeIndicadores {
+	    height: 3100px;
+	}	
+}
+/*------- Fin indicadores economicos --------*/
+.et_sup_00 {
+	width: 100%;
+	background-color: #99bd38;
+    background-repeat: repeat-x;
+    background-size: auto 200%;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.et_sup_00:before {
+	content: "";
+    background-position: 100%;
+    height: 65px;
+    width: 100%;
+    position: absolute;
+    background-size: auto 100%;
+    bottom: -10px;
+    border-bottom: 2px solid #e5e6e8;
+}
+
+.et_sup_00 h2 {
+    font-family: 'PT Sans', sans-serif !important;
+    padding: 5px 10px;
+    margin: 0px !important;
+    font-weight: bold !important;
+}
+
+.et_sup_00.silbato_selman:before {
+    background-repeat: no-repeat;
+    background-image: url(http://especiales.latercera.com/2016/blog_selman/blog-selman.png);
+    top: -5px;
+    border-bottom: 0px;
+}
+
+.et_sup_00.silbato_selman {
+    background-image: url(http://especiales.latercera.com/2016/blog_selman/back_selman.jpg);
+    border-top: 10px solid #CC231E;
+}
+
+.et_sup_00 h2 span.tx_white {
+	color: white;
+}
+
+.et_sup_00.silbato_selman h2 {
+    color: white;
+}
+
+/** Blog selman completo **/
+
+.caja_completa {
+    width: 100%;
+    border-top: 20px solid #CC231E;
+    background-image: url(http://especiales.latercera.com/2016/blog_selman/back_selman.jpg); 
+    background-color: #CC231E;
+    padding: 20px 20px;
+    position: relative;
+    margin-bottom: 35px;
+}
+.caja_completa h1:before {
+    content: "";
+    position: absolute;
+    right: -210px;
+    top: -10px;
+    width: 200px;
+    height: 200px;
+    background-image: url(http://especiales.latercera.com/2016/blog_selman/blog-selman.png);
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+}
+
+.caja_completa h1 {
+    position: relative;
+    color: white;
+    font-family: 'PT Sans', sans-serif !important;
+    font-weight: bold;
+    margin:0px;
+    margin-bottom: 20px;
+    margin-right: 250px;
+    font-size: 45px;
+    border-bottom: 1px solid white;
+}
+
+.caja_restriccion {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 200px;
+}
+
+@media (max-width: 450px) {
+    .caja_completa h1:before {
+        width: 160px;
+        height: 160px;
+        right: -180px;
+    }
+    .caja_restriccion {
+        padding-right: 160px;
+    }
+}
+
+@media (max-width: 380px) {
+    .caja_completa h1:before {
+        width: 100px;
+        height: 100px;
+        right: -105px;
+        top: 0px;
+    }
+    .caja_restriccion {
+        padding-right: 80px;
+    }
+    .caja_completa {
+        margin-bottom: 0px;
+    }
+}
+
+
+/** Minuto NBA **/
+
+.et_sup_00.minuto_nba:before {
+    background-repeat: no-repeat;
+    background-image: url(http://especiales.latercera.com/2016/minuto_nba/logo_nba.png);
+    top: -5px;
+    border-bottom: 0px;
+    right: 10px;
+}
+
+.et_sup_00.minuto_nba {
+    background-image: url(http://especiales.latercera.com/2016/minuto_nba/minuto_nba_back_mn.jpg);
+    border-top: 10px solid #e6ca0e;
+    background-size: auto auto;
+    background-repeat: repeat;
+    padding: 4px 10px;
+}
+
+.et_sup_00.minuto_nba h2 {
+    color: #e6ca0e;
+}
+
+.caja_completa.minuto_nba {
+    background-image: url(http://especiales.latercera.com/2016/minuto_nba/minuto_nba_back.jpg);
+    border-top: 15px solid #e6ca0e;
+}
+
+.caja_completa.minuto_nba h1 {
+    border-bottom: 1px solid #e6ca0e;
+    margin-top: 30px !important;
+    margin-bottom: 0px !important;
+}
+
+.caja_completa.minuto_nba h1:before {
+    background-image: url(http://especiales.latercera.com/2016/minuto_nba/logo_nba.png);
+    background-size: auto;
+    width: 100px;
+    height: 155px;
+    background-position: center;
+    top: -40px;
+    right: -100px;
+}
+
+.caja_completa.minuto_nba .caja_restriccion {
+    padding-right: 80px !important;
+}
+
+.caja_completa.minuto_nba img {
+    margin: 0px !important;
+    float: none !important;
+}
+
+@media (max-width: 550px)  {
+    .caja_completa.minuto_nba h1:before {
+        background-size: 40px auto;
+        top: -70px;
+    }
+    .caja_completa.minuto_nba img {
+        width: 240px;
+    }
+    .caja_completa.minuto_nba {
+        background-size: auto 100%;
+    }
+}
+
+/* El reto de Selman */
+
+.caja_completa.reto_selman {
+    background-image: url(http://especiales.latercera.com/2016/blog_selman/selman_corrida_bg_g.jpg);
+    border-top: 10px solid #00ff00;
+    padding-bottom: 10px;
+}
+ .caja_completa.reto_selman .caja_restriccion {
+    padding-right: 0px;
+    max-width: 800px;
+ }
+
+.caja_completa.reto_selman h1 {
+    margin-right: 0px !important;
+    margin-bottom: 5px !important;
+    margin-top: 40px !important;
+    text-transform: uppercase !important;
+}
+
+.caja_completa.reto_selman h1:before {
+    background-image: url(http://especiales.latercera.com/2016/blog_selman/img_selman_g.png);
+    width: 256px;
+    height: 146px;
+    background-size: auto;
+    top: -45px;
+    right: 10px;
+}
+
+.caja_completa.reto_selman:before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 580px) {
+    .caja_completa.reto_selman h1 {
+        padding-right: 105px;
+        font-size: 30px !important;
+    }
+    .caja_completa.reto_selman h1:before {
+        background-size: 100%;
+        width: 160px;
+        top: -10px;
+    }
+    .caja_completa.reto_selman:before {
+        height: 100%;
+    }   
+}
+
+@media (max-width: 480px) {
+    .caja_completa.reto_selman h1:before {
+        top:10px;
+        right: -5px;
+    }
+}
+
+.et_sup_00.reto_selman:before {
+    background-repeat: no-repeat;
+    background-image: url(http://especiales.latercera.com/2016/blog_selman/img_selman_g.png);
+    top: 15px;
+    border-bottom: 0px;
+    right: 10px;
+}
+
+.et_sup_00.reto_selman {
+    background-image: url(http://especiales.latercera.com/2016/blog_selman/selman_corrida_bg_p.jpg);
+    border-top: 10px solid #00ff00;
+    background-size: auto auto;
+    background-repeat: repeat;
+    padding: 4px 10px;
+}
+
+.et_sup_00.reto_selman h2 {
+    color: white;
+    font-size: 24px !important;
+    border-bottom: 1px solid white;
+    padding-bottom: 0px;
+    margin-top: 15px !important;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+/*-----Fin Barra Categoria Especial La Liga de Selman---------*/
+/*------- Barra Categoria Especial IRONMAN PUCON 2017 --------*/
+	.ironman-pucon-2017 {width: 100%;margin: 5px auto 15px;display: block;}
+	.ironman-pucon-2017:after, .ironman-pucon-2017:before {
+		content: "";
+		display: block;
+		background: #e5e6e8;
+		height: 1px;
+		width: 100%;
+	}
+	.ironman-pucon-2017:before {margin-bottom: 10px;}
+	.ironman-pucon-2017:after {margin-top: 10px;}
+	.ironman-pucon-2017 a, #content.portada .ironman-pucon-2017 a {
+		width: 100%;
+		display: table;
+		height: 41px;
+		position: relative;
+		background: #484848;
+	}
+	.ironman-pucon-2017 a:before {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 183px;
+		height: 56px;
+		background: url(http://especiales.latercera.com/2016/render/img/volcan-bg-sm.png) no-repeat top right / 100%;
+	}
+	.ironman-pucon-2017 a .ipuc_sup {
+		border-left: 0px solid #d10925;
+		display: table-cell;
+		vertical-align: middle;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
+	.ironman-pucon-2017 a:hover .ipuc_sup {
+		border-left: 10px solid #d10925;
+	}
+	.ironman-pucon-2017 a .ipuc_sup .ipuc_logo {
+		display: block;
+		margin-left: 10px;
+		position: relative;
+		width:190px; height: 27px;
+		background: url(http://especiales.latercera.com/2016/render/img/ironman-2017sm.png) no-repeat center center / 100%;
+	}
+	@media (min-width: 768px) {
+		.ironman-pucon-2017.ipuc_category {margin: 25px auto 0px;}
+		.ironman-pucon-2017.ipuc_category a, #content.portada .ironman-pucon-2017.ipuc_category a {height: 100px;}
+		.ironman-pucon-2017.ipuc_category a:before {width:347px; height: 126px;background: url(http://especiales.latercera.com/2016/render/img/volcan-bg-lg.png) no-repeat top right / 100%;}
+		.ironman-pucon-2017.ipuc_category a .ipuc_sup .ipuc_logo {width:370px; height: 51px; background: url(http://especiales.latercera.com/2016/render/img/ironman-2017lg.png) no-repeat center center / 100%;}
+	}
+/*------- Fin Barra Categoria Especial IRONMAN PUCON 2017 --------*/
+/*------- widget redes sociales --------*/
+.rrss-links {text-align: center; border: solid #c4c4c4; border-width: 1px 0; padding: 10px 0 5px;}
+#content.portada .rrss-links h3 {font-weight: normal; margin: 0 0 5px; font-size: 20px;}
+#content.portada .rrss-links h3 strong {font-weight: bold;}
+.rrss-links ul {padding:0; margin:0;text-align: center;}
+.rrss-links ul li {list-style-type: none;display: inline-block;vertical-align: middle;}
+.rrss-links ul li a {
+	display: block;
+	opacity: 1;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-o-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+.rrss-links ul li a:hover, .rrss-links ul li a:focus {
+	opacity: .7;
+	-moz-transform: translateY(-4px);
+	-webkit-transform: translateY(-4px);
+	-o-transform: translateY(-4px);
+	-ms-transform: translateY(-4px);
+	transform: translateY(-4px);
+}
+/*------- fin widget redes sociales --------*/
+
+/*------- Esconder google + ----------*/
+
+.redes li.google {
+	display: none;
+}
+
+/*------- Fin Esconder google + ----------*/
+
+/*------- Teleton --------*/
+
+.banner_teleton {
+		width: 100%;
+		border:1px solid #e75353;
+		background-color: #e75353;
+		background-image: url(http://especiales.latercera.com/2016/render/img/trama_teleton.png);
+		margin-top: 60px;
+	}
+	.metas_valores {
+		width: calc(100% - 300px);
+		float: left;
+		padding-top: 6px;
+	    padding-left: 16px;
+	}
+	.logo_teleton {
+		background-image: url(http://especiales.latercera.com/2016/render/img/logo-teleton.png);
+		background-color: white;
+		background-size: auto 85%;
+		background-repeat: no-repeat;
+		background-position: center;
+		float: left;
+		height: 100px;
+		width: 300px;
+		position: relative;
+	}
+	.logo_teleton::before {
+		content: "";
+	    background-image: url(http://especiales.latercera.com/2016/render/img/fin_logo.png);
+	    width: 142px;
+	    height: 100px;
+	    position: absolute;
+	    left: -142px;
+	}
+	.clear {
+		clear: both;
+	}
+	.meta_tel {
+		position: relative;
+	}
+	.como_vamos {
+		position: relative;
+	}
+	.metas_valores h2 {
+		color: white;
+		text-transform: uppercase;
+		font-weight: bold !important;
+		margin: 10px 0px !important;
+	}
+	.metas_valores .meta_tel h2.valor_meta {
+		color: #e75353;
+		background-color: white;
+		padding: 5px 15px 0px 20px;
+		width: 215px;
+		text-align: right;
+		position: absolute;
+	    top: -5px;
+	    margin: 0px !important;
+	    left: 260px;
+	}
+	.metas_valores .meta_tel h2.valor_meta::before {
+	    content: "$";
+	    position: relative;
+	    left: -10px;
+	}
+	.metas_valores .como_vamos h2.valor_meta::before {
+	    content: "$";
+	    position: relative;
+	    left: -10px;
+	}
+	.metas_valores .como_vamos h2.valor_meta {
+		border: 2px solid white; 
+		padding: 5px 15px 0px 20px;
+		width: 215px;
+		text-align: right;
+		position: absolute;
+	    top: -5px;
+	    margin: 0px !important;
+	    left: 260px;
+	}
+	.logo_teleton.teletin_01::after {
+	    content: "";
+	    background-image: url(http://especiales.latercera.com/2016/render/img/teletin_01.png);
+	    width: 188px;
+	    position: absolute;
+	    height: 165px;
+	    background-repeat: no-repeat;
+	    bottom: 0px;
+	    left: -173px;
+	}
+	.logo_teleton.teletin_02::after {
+	    content: "";
+	    background-image: url(http://especiales.latercera.com/2016/render/img/teletin_02.png);
+	    width: 200px;
+	    position: absolute;
+	    height: 175px;
+	    background-repeat: no-repeat;
+	    bottom: 0px;
+	    left: -190px;
+	}
+	.logo_teleton.teletin_03::after {
+	    content: "";
+	    background-image: url(http://especiales.latercera.com/2016/render/img/teletin_03.png);
+	    width: 200px;
+	    position: absolute;
+	    height: 160px;
+	    background-repeat: no-repeat;
+	    bottom: -10px;
+	    left: -170px;
+	}
+	@media (max-width: 900px) {
+		.logo_teleton::before {
+		display: none;
+		}
+		.logo_teleton.teletin_01::after {
+			display: none;
+		}
+		.logo_teleton.teletin_02::after {
+			display: none;
+		}
+		.logo_teleton.teletin_03::after {
+			display: none;
+		}
+	}
+	@media (max-width: 800px) {
+		.metas_valores {
+			width: 100%;
+		}
+		.logo_teleton {
+			width: 100%;
+		}
+		.metas_valores h2  {
+			font-size: 28px !important;
+		}
+	}
+	@media (max-width: 500px) {
+		.metas_valores .meta_tel h2.valor_meta {
+			position: relative;
+			width: 100%;
+			left: -5px;
+		}
+		.metas_valores .como_vamos h2.valor_meta {
+			position: relative;
+			width: 100%;
+			left: -5px;
+		}
+		.metas_valores h2 {
+			text-align: center;
+		}
+	}
+
+/*------- Teleton --------*/
+
+/*------- Opinon deporte ---------*/
+
+.caja_opinion_dep h2.tit_opinion_dep {
+		font-size: 28px !important;
+	    color: black;
+	    border-top: 1px solid #bfbfbf;
+	    border-bottom: 1px solid #bfbfbf;
+	    padding: 5px 0px;
+	    margin: 0px !important;
+	    margin-bottom: 20px !important;
+	    font-weight: bold !important;
+	    padding-top: 10px;
+	}
+	.caja_comentario_op {
+		border: 1px solid #cccccc;
+		width: 30%;
+		float: left; 
+		margin: 0% 1.4%;
+		position: relative;
+	}
+	.caja_not_dep h4 {
+		border-top: 1px solid lightgray;
+	    border-bottom: 1px solid lightgray;
+	    text-align: center;
+	    padding: 5px 0px;
+	    margin: 0px 10px 15px 10px;
+	    font-family: "Utopia-italic";
+	    font-size: 16px;
+	    font-weight: bold;
+	    color: black;
+	}
+	.caja_foto_por {
+		text-align: center;
+		color: #232323;
+	}
+	.caja_foto_por p {
+		margin-top: 100px;
+		margin-bottom: 3px;
+		font-size: 12px;
+	}
+	.caja_foto_por h3 {
+		margin: 0px !important;
+    	padding: 0px 10px;
+    	font-size: 14px !important;
+    }
+	.caja_comentario_op.bianchi::before {
+		background-image: url(http://especiales.latercera.com/2016/render/img/columnistas_deportes/bianchi.jpg);
+	}
+	.caja_comentario_op.goldberg::before {
+		background-image: url(http://especiales.latercera.com/2016/render/img/columnistas_deportes/goldberg.jpg);
+	}
+	.caja_comentario_op.hurtado::before {
+		background-image: url(http://especiales.latercera.com/2016/render/img/columnistas_deportes/hurtado.jpg);
+	}
+	.caja_comentario_op.jose_m::before {
+		background-image: url(http://especiales.latercera.com/2016/render/img/columnistas_deportes/jose_m.jpg);
+	}
+	.caja_comentario_op.leonardo_veliz::before {
+		background-image: url(http://especiales.latercera.com/2016/render/img/columnistas_deportes/leonardo_veliz.jpg);
+	}
+	.caja_comentario_op.sepulveda::before {
+		background-image: url(http://especiales.latercera.com/2016/render/img/columnistas_deportes/sepulveda.jpg);
+	}
+	.caja_comentario_op.simonetti::before {
+		background-image: url(http://especiales.latercera.com/2016/render/img/columnistas_deportes/simonetti.jpg);
+	}
+	.caja_comentario_op.solabarrieta::before {
+		background-image: url(http://especiales.latercera.com/2016/render/img/columnistas_deportes/solabarrieta.jpg);
+	}
+	.caja_comentario_op.guarello::before {
+		background-image: url(http://especiales.latercera.com/2016/render/img/columnistas_deportes/guarello.jpg);
+	}
+	.caja_comentario_op::before {
+		content: "";
+		background-position: center top;
+		background-size: 100% auto;
+		width: 80px;
+		height: 80px;
+		border: 3px solid gray;
+		position: absolute;
+		left: 50%;
+		margin-left: -40px;
+		top: 15px;
+		-moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    border-radius: 50%;
+	}
+	.caja_comentario_op.solo_1 {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.caja_comentario_op.solo_2:nth-of-type(1) {
+		margin-left: 20%;
+	}
+
+	@media (max-width: 1060px) {
+		.caja_comentario_op {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.caja_comentario_op.solo_2:nth-of-type(1) {
+		margin-left: 0%;
+		}
+	}
+	@media (max-width: 800px) {
+		.caja_comentario_op {
+			width: 30%;
+		}
+		.caja_comentario_op.solo_2 {
+			width: 46%;
+		}
+	}
+	@media (max-width: 400px) {
+		.caja_comentario_op {
+			width: 100%;
+		}
+		.caja_comentario_op.solo_2 {
+			width: 100%;
+		}
+	}
+
+/*------- Fin Opinon deporte ---------*/
+
+.publicidad_caja_en_vivo {
+	width: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+
+.mejores_estadisticas {
+		max-width: 600px;
+		background-color: lightgray;
+	}
+	.mejores_estadisticas h3 {
+		color: white !important;
+		font-weight: bold;
+		font-family: sans-serif !important;
+		background-color: #99BD38;
+		font-size: 26px !important;
+		padding: 10px;
+		margin: 0px;
+		margin-bottom: 0px !important;
+	}
+
+	.jugador_sel {
+		margin: 0px 10px;
+		border-bottom: 1px solid black;
+		padding: 0px 0px 15px 10px; 
+	}
+	.jugador_sel h4 {
+		margin: 0px;
+		font-weight: bold;
+		font-size: 18px !important;
+		font-family: sans-serif !important;
+		padding-top: 15px;
+		position: relative;
+		padding-left: 15px;
+		margin-bottom: 5px !important;
+	}
+	.jugador_sel h4::after {
+	     width: 0; 
+	     height: 0; 
+	     border-left: 10px solid #99BD38;
+	     border-top: 5px solid transparent;
+	     border-bottom: 5px solid transparent; 
+	     content: "";
+	     left: 0px;
+	     position: absolute;
+	     top: 20px;
+	}
+	.caja_porcentaje_jugador {
+		position: relative;
+		width: 90%;
+		height: 20px;
+		float: left;
+		background-color: #99BD38;
+	}
+	.caja_porcentaje_jugador::before {
+		content: "";
+		position: absolute; 
+		top: 0px;
+		right: 0px;
+		height: 20px;
+		background-color: white;
+	}
+	.caja_porcentaje_jugador.porcentaje_90::before {
+		width: 10%;
+	}
+	.caja_porcentaje_jugador.porcentaje_80::before {
+		width: 20%;
+	}
+	.caja_porcentaje_jugador.porcentaje_70::before {
+		width: 30%;
+	}
+	.caja_porcentaje_jugador.porcentaje_60::before {
+		width: 40%;
+	}
+	.caja_porcentaje_jugador.porcentaje_50::before {
+		width: 50%;
+	}
+	.caja_porcentaje_jugador.porcentaje_40::before {
+		width: 60%;
+	}
+	.caja_porcentaje_jugador.porcentaje_30::before {
+		width: 70%;
+	}
+	.caja_porcentaje_jugador.porcentaje_20::before {
+		width: 80%;
+	}
+	.caja_porcentaje_jugador.porcentaje_10::before {
+		width: 90%;
+	}
+	.votos_jugador {
+		width: 10%;
+		float: left;
+		text-align: center;
+		font-weight: bold;
+		font-family: sans-serif;
+	}
+	.mejores_estadisticas .jugador_sel:nth-last-of-type(1) {
+		border-bottom: 0px;
+		padding-bottom: 20px;
+	}
+	.clear {
+		clear: both;
+	}
+	.jugador_sel p {
+		margin-bottom: 0px !important;
+	}
+
+	.tabla_anteriores {
+		width: calc(50% - 11px);
+		float: left;
+		margin-bottom: 20px;
+		border: 1px solid gray;
+	}	
+	.tabla_anteriores:nth-child(odd) {
+		margin-right: 10px;
+	}
+	.tabla_anteriores h2 {
+		color: white !important;
+		font-weight: bold;
+		font-family: sans-serif !important;
+		background-color: #99BD38; 
+		padding: 10px;
+		margin: 0px !important;
+		font-size: 20px !important;
+	}
+	.cupo_jugador {
+		padding: 5px 10px;
+		background-color: #ddd;
+	}
+	.cupo_jugador:nth-child(odd) {
+		background-color: #cacaca;
+	}
+	.cupo_jugador h3 {
+		font-family: sans-serif !important;
+		font-weight: bold !important;
+		font-size: 16px !important;
+		margin: 0px !important;
+	}
+	.cupo_jugador p {
+		font-family: sans-serif !important;
+		font-size: 14px !important;
+		margin: 0px !important;
+	}
+
+	/*--ESpecial portada chomsky--*/
+	.deportesel-archivo-de-chomsky .et_sup {
+		background-color: transparent;
+		background-image: url(http://especiales.latercera.com/2016/render/img/chomsky/back_chomsky_top.png);
+		background-size: 100% auto;
+		background-repeat: repeat-y;
+	}
+	.deportesel-archivo-de-chomsky .et_sup::after {
+		background: url(http://especiales.latercera.com/2016/render/img/chomsky/foto_chomsky.png) 100% center / auto 100%no-repeat;
+		border-top: 0px;
+		bottom: -15px;
+		right: 0px;
+		border-top: 1px solid rgb(229, 230, 232);
+		border-bottom: 1px solid rgb(229, 230, 232);
+	}
+	.deportesel-archivo-de-chomsky .et_sup::before {
+		border-bottom: 0px;
+		background-image: url(http://especiales.latercera.com/2016/render/img/chomsky/back_chomsky_bottom.png);
+		background-size: 100% auto;
+		height: 8px;
+		width: 100%;
+		bottom: -5px;
+
+	}
+	.deportesel-archivo-de-chomsky .et_sup h2 {
+		color: white;
+		padding-bottom: 0px !important;
+		font-size: 22px !important;
+		padding-right: 50px;
+	}
+	.deportesel-archivo-de-chomsky .et_sup h2 span.tx_orange {
+		color: #c74319;
+	}
+	.not_cat.deportesel-archivo-de-chomsky::after {
+		border-bottom: 0px !important;
+	}
+	/*--ESpecial interior chomsky--*/
+	.franja_completa_con_guion {
+		width: 100%;
+		padding: 10px;
+		position: relative;
+		background-image: url(http://especiales.latercera.com/2016/render/img/chomsky/back_completo.png);
+		background-size: auto 100%;
+		margin-bottom: 40px;
+		margin-top: 60px;
+	}
+
+	.franja_completa_con_guion::before {
+		content: "";
+		border-top: 1px solid gray;
+		border-bottom: 1px solid gray;
+		position: absolute;
+		width: 100%;
+		height: 130px;
+		top: -11px;
+		left: 0px;
+	}
+	a.link_chomsky {
+		text-decoration: none;
+		cursor: pointer;
+	    position: relative;
+	    display: block;
+	    z-index: 5;
+	}
+	.franja_completa_con_guion h2 {
+		position: relative;
+		max-width: 1200px;
+		color: white;
+	    font-size: 60px !important;
+	    font-weight: 700 !important;
+	    font-family: 'PT Sans', sans-serif !important;
+	    margin-top: 20px !important;
+	    margin-bottom: 20px !important;
+	    margin-right: auto !important;
+	    margin-left: auto !important;
+	    line-height: 45px !important;
+	    padding-right: 240px;
+	}
+	.franja_completa_con_guion h2 span.tx_orange {
+		color: #c74319;
+	}
+	.franja_completa_con_guion h2::before {
+		content: "";
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		right: 20px;
+		top: -80px;
+		background-image: url(http://especiales.latercera.com/2016/render/img/chomsky/foto_chomsky_grande.png);
+		background-size: 100% auto;
+	}
+	.html-especial {
+		border-bottom: 0px;
+	}
+	@media (max-width: 899px) {
+		.franja_completa_con_guion h2 {
+			font-size: 40px !important;
+			padding-right: 170px;
+		}
+		.franja_completa_con_guion h2::before {
+			width: 160px;
+		    height: 160px;
+		    right: 0px;
+		    top: -55px;
+		}
+	}
+	@media (max-width: 650px) {
+		.franja_completa_con_guion h2 {
+			margin-bottom: 0px !important;
+			margin-top: 0px !important;
+    		margin-right: auto !important;
+		}
+	}
+	@media (max-width: 461px) {
+		.franja_completa_con_guion h2 {
+			font-size: 30px !important;
+    		padding-right: 60px;
+    		line-height: 28px !important;
+		}
+		.franja_completa_con_guion h2::before {
+		    width: 60px;
+		    height: 60px;
+		    right: -5px;
+		    top: -15px;
+		}
+		.franja_completa_con_guion::before {
+			height: 70px;
+		}
+	}
+	@media (max-width: 442px) {
+		.franja_completa_con_guion::before {
+			height: 100px;
+		}
+		.franja_completa_con_guion h2::before {
+			top: -5px;
+		}
+	}
+
+/*-- Caja Equipos  --*/
+
+.caja_completa_sup {
+	width: 100%;
+	background-color: lightgray;
+	}
+.caja_equipos_superior {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 950px;
+	}
+
+.text_despliegue {
+	border: 1px solid lightgray;
+	width: 150px;
+	height: 50px;
+	float: left;
+	padding: 5px;
+	background-color: white;
+	color: gray;
+	background-image: url(http://especiales.latercera.com/2016/render/img/arrow_b.png);
+	background-repeat: no-repeat;
+	background-position: 10px 15px;
+	background-size: 10px auto;
+	position: relative;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	}
+.text_despliegue h4 {
+	margin: 0px;
+	margin-top: 11px;
+	font-family: sans-serif;
+	padding-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	}
+a .text_despliegue:hover {
+	color: white;
+	background-image: url(http://especiales.latercera.com/2016/render/img/arrow_w.png);
+	}
+a .text_despliegue:hover {
+	background-color: #CC231E;
+	}
+.equipo {
+	width: 50px;
+	height: 50px;
+	border-top:1px solid lightgray;
+	border-left:1px solid lightgray;
+	border-collapse: collapse;
+	border-bottom: 5px solid lightgray;
+	background-color: white;
+	float: left;
+	background-size: 80% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	}
+.equipo.last {
+	border-right: 1px solid lightgray;
+	}
+a .equipo:hover {
+	border-bottom: 5px solid #ad1a18;
+	background-color: #CC231E;
+	}
+.equipo.audax {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/audax.png);
+	}
+.equipo.cobresal {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/cobresal.png);
+	}
+.equipo.colo-colo {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/colo_colo.png);
+	}
+.equipo.antofagasta {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/antofagasta.png);
+	}
+.equipo.iquique {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/iquique.png);
+	}
+.equipo.temuco {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/temuco.png);
+	}
+.equipo.everton {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/everton.png);
+	}
+.equipo.huachipato {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/huachipato.png);
+	}
+.equipo.ohiggins {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/ohiggins.png);
+	}
+.equipo.palestino {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/palestino.png);
+	}
+.equipo.san_luis {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/san_luis.png);
+	}
+.equipo.wanderers {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/wanderers.png);
+	}
+.equipo.u_de_conce {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/u_de_concecion.png);
+	}
+.equipo.u_espanola {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/u_espanola.png);
+	}
+.equipo.u_catolica {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/u_catolica.png);
+}
+.equipo.u_chile {
+	background-image: url(http://especiales.latercera.com/2016/render/img/logos_equipos/equipos_chile/u_chile.png);
+}
+
+@media (max-width: 970px) {
+	.equipo {
+		width: 40px;
+		height: 40px;
+	}
+	.text_despliegue {
+		height: 40px;
+	}
+	.caja_equipos_superior {
+		max-width: 790px;
+	}
+}
+
+@media (max-width: 810px) {
+	.caja_equipos_superior a .equipo {
+		display: none;
+	}
+	.caja_completa_sup {
+		background-color: white;
+	}
+	.text_despliegue {
+		float: right;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		background-position: 10px 11px;
+	}
+	a .text_despliegue {
+		background-image: url(http://especiales.latercera.com/2016/render/img/arrow_w.png);
+		color: white;
+		background-color: #CC231E;
+		margin-top: 10px;
+	}
+	a .text_despliegue:hover {
+		background-image: url(http://especiales.latercera.com/2016/render/img/arrow_b.png);
+		color: gray;
+		background-color: white;
+	}
+	.text_despliegue h4 {
+		margin-top: 7px;
+	}
+}
+#content.portada .vista-head-sponsor .img + .bl_comparte {
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	margin-top: -40px;
+	position: relative;
+	color: #fff;
+}
+.vista-head-sponsor .img {position: relative;}
+.vista-head-sponsor .img:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 70%;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 );
+}
+#content.portada .vista-head-sponsor .img + .bl_comparte span {font-family: "Utopia-italic";}
+#content.portada .vista-head-sponsor .img + .bl_comparte ul li:before {color: #fff;}
+#content.portada .vista-head-sponsor .img + .bl_comparte ul li {border-left: 1px solid rgba(255, 255, 255, 0.3);}
+#content.portada .bl_tematico .noticia_tematica_destacada .bl_comparte,
+#content .apertura_noticias .bl_comparte {border-top: 1px solid rgba(255, 255, 255, 0.3);}
+#content.portada .bl_tematico .noticia_tematica_destacada .bl_comparte ul li,
+#content .apertura_noticias .noticia_tv_destacada .bl_comparte ul li {border-left: 1px solid rgba(255, 255, 255, 0.3);}
+.frente-a-frente {
+	position: relative;
+	background: #cc231e;
+	display: inline-block;
+	padding: 12px 5px 5px 95px;
+	height: 42px;
+}
+.faf-tag {
+	width: 100%;
+	position: relative;
+	margin: 30px auto;
+}
+.faf-tag .faf-bar {
+	width: 100%;
+	height: 2px;
+	background-color: #cc231e;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: -1;
+}
+.frente-a-frente:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(204, 35, 30, 0);
+	border-left-color: #cc231e;
+	border-width: 21px;
+	margin-top: -21px;
+}
+.frente-a-frente h4 {
+	font-size: 15px;
+	color: #fff;
+	margin: 0;
+	line-height: 1em;
+	text-transform: uppercase;
+	font-family: 'Arial', Helvetica, Sans-serif;
+	font-weight: 700;
+}
+.frente-a-frente h4:before {
+	display: block;
+	width: 30px;
+	height: 2px;
+	background-color: #fff;
+	margin-bottom: 3px;
+	content: "";
+}
+.frente-a-frente img {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	max-width: 67px;
+	height: auto;
+
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%); 
+}
+.postid-775695 .sidebar.column.four {
+	display: none;
+}
+.head-in-article, .presidenciales2017.head-in-article {
+	margin-left: -25px;
+	margin-right: -25px;
+	width: auto;
+	margin-bottom: 15px;
+}
+@media (min-width: 801px;) {
+	.head-in-article, .presidenciales2017.head-in-article {
+		margin-bottom: 0;
+	}
+}
+@media (min-width: 1181px;) {
+	.head-in-article, .presidenciales2017.head-in-article {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+.publi_sky iframe:hover {
+    width: 640px !important;
+}
+
+.caja-completa-maraton {
+		width: 100%;
+		background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/03/27/fondo-maraton.png); 
+		background-position: center;
+		border-top: 5px solid #db081a;		
+
+	}
+	.caja-maraton {
+		width: 100%;
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		height: 65px;
+		margin-bottom: 20px;
+	}
+	.logo-maraton {
+		position: absolute;
+		bottom: -10px;
+		left: 5px;
+	}
+	.time-maraton {
+		background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/03/27/fecha_corrida.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 65px;
+		width: 100px;
+		position: absolute;
+		right: 10px;
+	}
+	h1.portadilla {
+		display: none;
+	}
+	h2.tit_maraton {
+		font-family: sans-serif !important;
+		background-color: #303030;
+		color: white;
+		text-transform: uppercase;
+		padding: 5px 10px;
+		margin: 0px !important;
+		margin-right: 120px !important;
+		font-size: 18px !important;
+		font-weight: bold !important;
+		
+}
+
+.caja-completa-maraton-cor {
+		width: 100%;
+		background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/03/27/sac__bg.jpg); 
+		background-position: center;
+		position: relative;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.caja-completa-maraton-cor:before {
+		content: "";
+		top: -10px;
+		position: absolute;
+		width: 100%;
+		border-top: 1px solid #ddd;
+	}
+	.caja-completa-maraton-cor:after {
+		content: "";
+		bottom: -10px;
+		position: absolute;
+		width: 100%;
+		border-top: 1px solid #ddd;
+	}
+	.caja-maraton-cor {
+		width: 100%;
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		height: 55px;
+	}
+	.logo-maraton-cor {
+		position: absolute;
+		top: -5px;
+		left: 5px;
+	}
+	.time-maraton-cor {
+		background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/03/27/erika.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 70px;
+		width: 70px;
+		position: absolute;
+		right: 10px;
+		top: -8px;
+	}
+	h1.portadilla {
+		display: none;
+	}
+	h2.tit_maraton-cor {
+		font-family: sans-serif !important;
+		background-color: #303030;
+		color: white;
+		text-transform: uppercase;
+		padding: 10px 15px;
+		margin: 0px !important;
+		margin-right: 120px !important;
+		font-size: 20px !important;
+		font-weight: bold !important;
+	}
+	@media (max-width: 510px) {
+		.logo-maraton-cor {
+			top: -6px;
+		}
+	}
+
+/* Radio zero */
+article.noticia_bl.programas_vivo.radio_zero {background-color: #ffffff; border: 1px solid black;}
+article.noticia_bl.programas_vivo.radio_zero .cabecera_vivo_programas {
+  background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/04/28/radio_zero.png);
+  background-repeat: no-repeat;
+    background-size: auto 25px;
+    background-position: right 10px center;
+}
+article.noticia_bl.programas_vivo.radio_zero .descripcion_programa_vivo h3 {border-color: #E41B20; color: black;}
+article.noticia_bl.programas_vivo.radio_zero .descripcion_programa_vivo h2 {color: black;}
+article.noticia_bl.programas_vivo.radio_zero .etiqueta_vivo_programa {
+  background-image: none;
+  background-color: #E41B20;
+  padding-right: 15px;
+  color: #ffffff;
+}
+article.noticia_bl.programas_vivo.radio_zero .etiqueta_vivo_programa:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  right: -11px;
+  border-style: solid;
+  border-width: 29px 11px 0 0;
+  border-color: #E41B20 transparent transparent transparent;
+}
+/* Radio duna */
+article.noticia_bl.programas_vivo.radio_duna {background-color: #B2C9E7;}
+article.noticia_bl.programas_vivo.radio_duna .cabecera_vivo_programas {
+  background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/04/28/radio_duna.png);
+  background-repeat: no-repeat;
+    background-size: auto 20px;
+    background-position: right 10px center;
+}
+article.noticia_bl.programas_vivo.radio_duna .descripcion_programa_vivo h3 {border-color: #DFC9A5; color: black;}
+article.noticia_bl.programas_vivo.radio_duna .descripcion_programa_vivo h2 {color: black;}
+article.noticia_bl.programas_vivo.radio_duna .etiqueta_vivo_programa {
+  background-image: none;
+  background-color: #DFC9A5;
+  padding-right: 15px;
+  color: #000;
+}
+article.noticia_bl.programas_vivo.radio_duna .etiqueta_vivo_programa:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  right: -11px;
+  border-style: solid;
+  border-width: 29px 11px 0 0;
+  border-color: #DFC9A5 transparent transparent transparent;
+}
+.caja_equipos_superior.confederaciones-2017 {
+max-width: 710px;
+}
+.caja_equipos_superior.confederaciones-2017 .equipo {
+width: 70px;
+background-color: #dedede;
+}
+.caja_equipos_superior.confederaciones-2017 a .equipo:hover {
+background-color: #007dce;
+border-bottom: 5px solid #004e81;
+}
+.caja_equipos_superior.confederaciones-2017 .text_despliegue h4 {
+margin-top: 5px;
+}
+.caja_equipos_superior.confederaciones-2017 .equipo.rusia{
+background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/06/16/rusia1.png);
+}
+.caja_equipos_superior.confederaciones-2017 .equipo.nueva-zelanda{
+background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/06/16/nueva-zelanda.png);
+} 
+.caja_equipos_superior.confederaciones-2017 .equipo.portugal{
+background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/06/16/portugal.png);
+}
+.caja_equipos_superior.confederaciones-2017 .equipo.mexico{
+background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/06/16/mexico.png);
+}
+.caja_equipos_superior.confederaciones-2017 .equipo.camerun{
+background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/06/16/camerun.png);
+}
+.caja_equipos_superior.confederaciones-2017 .equipo.chile{
+background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/06/16/chile.png);
+}
+.caja_equipos_superior.confederaciones-2017 .equipo.australia{
+background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/06/16/australia.png);
+}
+.caja_equipos_superior.confederaciones-2017 .equipo.alemania{
+background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/06/16/alemania.png);
+}
+.primarias-front-2017 {width: 100%;height: 442px;}
+.column.centro .primarias-front-2017 {width: 100%;height: 415px;}
+@media (max-width: 320px) {.primarias-front-2017, .column.centro .primarias-front-2017 {width: auto;margin-left:-20px;margin-right:-20px;}}
+
+/*INICIO ESTILOS LT 2017*/
+
+#wrapper header .logo a { 
+	background: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/07/La-Tercera-pixel-perfect.png) no-repeat left top !important;
+	background-size: 100% auto !important; 
+	width: 341px;
+	height: 44px;
+ }
+#wrapper header .header {
+	background-color: white !important;
+}
+.cab_fecha {
+	color: #323232 !important;
+}
+ul.nav_user li:first-child {
+	 border-right: 1px solid #323232 !important;
+}
+ul.nav_user li a { 
+	color: #323232 !important;
+ }
+#wrapper header.header_home .subheader { 
+	background: white !important;
+	border-top: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+ }
+header.header_home .subheader .menu-superior-horizontal-container ul li a {
+	color: #323232 !important; 
+	font-weight: 700 !important;
+}
+header.header_home .subheader .menu-superior-horizontal-container ul li a:hover:after {
+	border-bottom: 2px solid #323232 !important;
+}
+.nav_top li:before {
+	color: #323232 !important;
+}
+header.header_home .subheader .bot_buscar:after {
+	color: #323232 !important;
+}
+header.header_home .subheader .bot_destacamos { 
+	color: #323232 !important;
+	font-weight: 700 !important;
+ }
+header.header_home .subheader .bot_destacamos:after {
+	color: #323232 !important;
+}
+.header .redes li:before {
+	color: #323232 !important;
+}
+ul.nav_user, .header_interior ul.nav_user {
+	background:transparent url("http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/07/07/icon-user-gray-2.png") no-repeat 0px -3px !important;
+}
+#wrapper header.header_interior .subheader {
+	border-top: 1px solid #d0d0d0;
+}
+
+@media screen and (max-width: 910px) {
+	#wrapper header .logo a {
+		width: 258px;
+		height: 33px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	header .subheader .bot_nav {
+		color: #323232 !important;
+	}
+	header .subheader .bot_nav::after {
+		color: #323232 !important;
+	}
+	#wrapper header .logo a {
+		width: 170px;
+		height: 22px;
+	}
+}
+.menu-superior-top-container {background-color: #E0E0E0 !important;}
+.menu-superior-top-container ul li a {color:#000!important;}
+ul.nav_user {background-position: 0 8px !important;}
+footer.footer .row .logo_latercera {
+	background: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/07/20/la-tercera-white.png) no-repeat left bottom / 100% auto !important;
+}
+
+/*FIN ESTILOS LT 2017*/
+.equipo.curico { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/07/24/curico.png); }
+.text_despliegue {
+  padding: 0px;
+  width: 110px;
+  }
+.text_despliegue.fixture {
+  padding-top: 5px;
+  padding-left: 5px;
+  }
+.caja_equipos_superior {
+  max-width: 1020px;
+}
+@media (max-width: 810px) {
+.text_despliegue h4 {
+    margin-top: 6px;
+  }
+.text_despliegue {
+  width: 130px;
+  }
+}
+
+
+.bl { overflow: hidden; }
+
+
+/*-- última vuelta --*/
+
+.ultima-vuelta { border-top: 1px solid #d0d0d0; border-bottom: 1px solid #d0d0d0; padding: 20px 0px; margin-top: 20px; }
+.ultima-vuelta .tit_vuelta:before { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/03/jorge-romo.png);
+}
+.fran-pista { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/03/fondo-pista.jpg); background-size: cover;  height: 120px; padding-top: 20px;}
+.tit_vuelta { background-color: rgba(0,0,0,0.4); height: 80px; }
+.tit_vuelta h2 { margin: 0px; position: relative; font-size: 60px !important; font-family: sans-serif !important; padding-top: 10px; font-weight: bold !important;}
+a .tit_vuelta h2 { color: white; text-decoration: none; padding-left: 20px; max-width: 1200px; margin-left: auto !important; margin-right: auto !important; }
+.fran-pista a { text-decoration: none; }
+.tit_vuelta h2:before { content: ""; position: absolute; right: 20px; top:-40px; width: 160px; height: 160px; background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/03/jorge-romo.png); background-repeat: no-repeat; background-size: cover; }
+.tit_vuelta h2:after { content: ""; position: absolute; left: 0px; top: -10px; height: 100px; width: 10px; background-color: red; }
+
+
+
+
+.ultima-vuelta-home { padding: 10px 0px; margin-top: 0px; margin-bottom: 20px;}
+.ultima-vuelta-home .tit_vuelta:before { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/03/jorge-romo-p.png);
+}
+.ultima-vuelta-home .fran-pista { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/03/fondo-pista-p.jpg); height: 50px; padding-top: 10px;}
+.ultima-vuelta-home .tit_vuelta { height: 40px; }
+.ultima-vuelta-home .tit_vuelta h2 { font-size: 26px !important;}
+.ultima-vuelta-home .tit_vuelta h2:before { content: ""; position: absolute; right: 5px; top:-20px; width: 80px; height: 80px; background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/03/jorge-romo.png); background-repeat: no-repeat; background-size: cover; }
+.ultima-vuelta-home .tit_vuelta h2:after { content: ""; position: absolute; left: 0px; top: -10px; height: 50px; width: 10px; background-color: red; }
+
+span.bajada-01 { position: absolute; bottom: 0px; right: 180px; text-align: right; width: 200px; font-size: 14px !important; font-weight: lighter;  }
+
+@media (max-width: 790px) {
+	span.bajada-01 { display: none; }
+}
+
+@media (max-width: 650px) {
+  .tit_vuelta h2 { font-size: 30px !important; }
+  .tit_vuelta {height: 50px;}
+  .fran-pista { height: 70px; padding-top: 10px; }
+  .tit_vuelta h2:after { height: 70px; }
+  .tit_vuelta h2:before { top: -30px; width: 110px; height: 110px; }
+}
+
+@media (max-width: 420px) {
+	.ultima-vuelta { padding: 10px 0px; margin-top: 0px; }
+	.tit_vuelta:before { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/03/jorge-romo-p.png);}
+	.ultima-vuelta .fran-pista { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/03/fondo-pista-p.jpg); height: 50px; padding-top: 10px;}
+	.ultima-vuelta .tit_vuelta { height: 40px; }
+	.ultima-vuelta .tit_vuelta h2 { font-size: 22px !important;}
+	.ultima-vuelta .tit_vuelta h2:before { content: ""; position: absolute; right: 5px; top:-20px; width: 80px; height: 80px; background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/03/jorge-romo.png); background-repeat: no-repeat; background-size: cover; }
+	.ultima-vuelta .tit_vuelta h2:after { content: ""; position: absolute; left: 0px; top: -10px; height: 50px; width: 10px; background-color: red; }
+}
+
+
+/*-- conexion europa --*/
+
+.ultima-vuelta.conexion-europa { border-top: 0px solid #d0d0d0; border-bottom: 1px solid #d0d0d0; padding: 20px 0px; margin-top: 20px; }
+
+.tx-europa { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/03/coneccion-europa-fondo.jpg); background-size: cover;  height: 120px; padding-top: 20px; background-position: center top;}
+.tit_conex { }
+.tit_conex h2 { margin: 0px; position: relative; font-size: 60px !important; font-family: sans-serif !important; padding-top: 10px; font-weight: bold !important;}
+a .tit_conex h2 { color: white; text-decoration: none; max-width: 1200px; margin-left: auto !important; margin-right: auto !important; padding-left: 20px; }
+.tx-europa a { text-decoration: none; }
+.tit_conex h2:before { content: ""; position: absolute; right: 20px; top:-50px; width: 220px; height: 220px; background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/07/sagredo1.png); background-repeat: no-repeat; background-size: cover; }
+.tit_conex h2:after { content: ""; position: absolute; left: 20px; bottom: -15px; height: 10px; width: 500px; background-color: white; }
+
+span.not_cat.conexin-europadeportes span.fond { display: none; }
+span.conexin-europadeportes:after { display: none; }
+.ultima-vuelta.conexion-europa-home { border-bottom: 0px; }
+
+.ultima-vuelta.conexion-europa-home { padding: 10px 0px; margin-top: 0px; }
+.conexion-europa-home .tit_conex:before { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/07/sagredo-p1.png);}
+.ultima-vuelta.conexion-europa-home .tx-europa { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/04/coneccion-europa-fondo-p.png); height: 50px; padding-top: 10px; background-position: left;}
+.ultima-vuelta.conexion-europa-home .tit_conex { height: 40px; }
+.ultima-vuelta.conexion-europa-home .tit_conex h2 { font-size: 22px !important; padding-top: 5px; padding-left: 5px;}
+.ultima-vuelta.conexion-europa-home .tit_conex h2:before { content: ""; position: absolute; right: -10px; top:-17px; width: 80px; height: 80px; background-repeat: no-repeat; background-size: cover; }
+.ultima-vuelta.conexion-europa-home .tit_conex h2:after { height: 1px; bottom: -5px; width: 190px; left: 5px; }
+.conexion-europa-home  a .tit_conex h2 { padding-left: 10px;
+
+}
+
+@media (max-width: 770px) {
+  .tit_conex h2 { font-size: 30px !important; }
+  .tit_conex {height: 50px;}
+  .tx-europa { height: 70px; padding-top: 10px; }
+  .tit_conex h2:after { height: 5px; bottom: -10px; width: 250px; }
+  .tit_conex h2:before { top: -40px; width: 150px; height: 150px; right: 10px; }
+}
+
+@media (max-width: 450px) {
+	.ultima-vuelta { padding: 10px 0px; margin-top: 0px; }
+	.tit_conex:before { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/07/sagredo-p1.png);}
+	.ultima-vuelta .tx-europa { background-image: url(http://d2vpb0i3hb2k8a.cloudfront.net/wp-content/uploads/sites/7/2017/08/04/coneccion-europa-fondo-p.png); height: 50px; padding-top: 10px; background-position: left;}
+	.ultima-vuelta .tit_conex { height: 40px; }
+	.ultima-vuelta .tit_conex h2 { font-size: 22px !important; padding-top: 5px; padding-left: 10px;}
+	.ultima-vuelta .tit_conex h2:before { content: ""; position: absolute; right: 5px; top:-17px; width: 80px; height: 80px; background-repeat: no-repeat; background-size: cover; }
+	.ultima-vuelta .tit_conex h2:after { height: 1px; bottom: -5px; width: 190px; left: 10px; }
+	.a .tit_conex h2 { padding-left: 10px; }
+}
+
+/*-- conexion europa --*/
