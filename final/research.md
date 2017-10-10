@@ -1,4 +1,4 @@
-# Anti homohoax - Research
+# Conservative (de)homosexualization - Research
 **Faking the News, Final Project**
 
 ## Readings
