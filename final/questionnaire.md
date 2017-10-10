@@ -1,10 +1,10 @@
-# Anti HomoHoax
+# Conservative (de)homosexualization
 
 ### Metadata
 1. Your name / major / year
 	- Nicolás Peña-Escarpentier / ITP / First year - Fall 2017
 2. Project working title
-	- Conservative homosexualization
+	- Conservative (de)homosexualization
 3. Tweet-length project description
 	- Satire on the fears of ultra conservative Chilean groups, with mixed political messages. The population cannot be homosexualized!
 4. Paragraph-length project description
