@@ -56,7 +56,7 @@ Can be reached though:
 - **Observatorio de la Cultura** [twitter](https://twitter.com/OBCultura) by Henry Boys as well
 
 
-## "News" ideas
+## Hoaxes
 
 - Género anti-género
 - Lobby gay e intervención en el Gobierno
@@ -64,3 +64,18 @@ Can be reached though:
 - Abortos obligatorios en hospitales públicos conservadores
 - Intervención de Lobby LGBT en comando de Piñera
 - Abortos clandestinos por dinero para comandos conservadores capitalistas
+
+
+#### Wikileaks
+
+I need to do some research on Wikileaks to see how they show the information of their in order to copy the format and be able to fake some of them.
+
+
+## Twitter account
+
+I need to buy followers to create a more "believable" profile. Once I get those followers, I can start posting the hoaxes and satires. Found a website that supposedly gives me Chilean followers, 1000 for EUR 9.99. Hopefully, it is not a scam. I paid through PayPal to avoid giving too much personal data.
+
+
+#### Extras
+
+Hard to compete against other crazier guys https://twitter.com/commander_sb/status/919638177480151040
