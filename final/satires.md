@@ -52,7 +52,6 @@ Han recibido grandes aportes de campaña con el fin de instalar sus agendas homo
 
 Luchemos por nuestras familias y nuestro país!!! Que no caigan en las garras de la #DictaduraGay!!!  #ChileConservador #SaturaHacks
 
-
 [Source document](https://wikileaks.org/dnc-emails/emailid/4091)
 
 #### Previous Tweet
@@ -62,12 +61,16 @@ No tomaran nuestro país!!! #ChileConservador #SaturaHacks
 #### Main Tweet
 ANUNCIO: NUESTRA POLÍTICA ESTÁ COMPLETAMENTE SUCIA!!! Aportes del lobby LGBT en todos los partidos! Exijamos respuestas a nuestros políticos! #ChileConservador #SaturaHacks
 
+
+
 ## Most active receptors and important people to tweet at
-- @tere_marinovic @AXELKAISER @realHenryBoys @melnicksergio @ceciperez1 @carreragonzalo @chahuan @joseantoniokast @sebastianpinera @loreto_letelier
-- @sergioulloa1 @fedoraletelier @cftg1204 @PorChileLibre @rogofe47Chile @Regia_Pam @AlGrano921 @maricocina @tbowman3076 @CocolisoDelSur @FridaSiKahlo
-- @aldocardinali @pablolirar @SEBASMUGEN @Doralira @tuiteradechile @Octavioavendano @HumbertoMndezMo @pablolirar @jtgazmuri @anzunza @El_Palestino1
+- @tere_marinovic @AXELKAISER @realHenryBoys @melnicksergio @ceciperez1 @chahuan @joseantoniokast @sebastianpinera @loreto_letelier
 - @ChileHomosexual @Derechatuitera2 @GirealaDerecha @ObservatorioDmc @S_LibertariaCL @EquipoKast @OBCultura
-- @HumbertoMndezMo @aguja9999 @Ceci1222 @barbarabricenok @MPArzola @TheCorpis @eblesmancer @Pinerin2018 @berfontaine @isabelpla @Daisy_Castillo @JohnGaltCL
-- @casanovaany @mbh1903 @pau_liiina @pinina0709 @JPAVEZ1 @dagonzalezr @idealista_ciego @JUANMORALISTA @Super_Agente99 @RENO_MAYOR @Dennis_Ferrada @JOSEPATRICIO_B @NHuldberg
-- @lionalvawest @ludelvaldivia @kateflorcita @RommyStock @RicardoOrtizMJI @RobertoFinat @karofuentesg @jodavaba @carmenlachucara @Albertocuerquia @FafuC
-- @busdevel95 @iammakingmusic @jessicadiaz_m @JVialOchagavia @AraucaniaRT @Makeka @chilepuro @TheCorpis
+- @aldocardinali @pablolirar @SEBASMUGEN @Doralira @tuiteradechile @Octavioavendano @HumbertoMndezMo @pablolirar
+@jtgazmuri @anzunza @El_Palestino1 @sergioulloa1 @fedoraletelier @cftg1204 @PorChileLibre @rogofe47Chile @Regia_Pam
+@AlGrano921 @maricocina @tbowman3076 @CocolisoDelSur @FridaSiKahlo @HumbertoMndezMo @aguja9999 @Ceci1222
+@barbarabricenok @MPArzola @TheCorpis @eblesmancer @Pinerin2018 @berfontaine @isabelpla @Daisy_Castillo @JohnGaltCL
+@casanovaany @mbh1903 @pau_liiina @pinina0709 @JPAVEZ1 @dagonzalezr @idealista_ciego @JUANMORALISTA @Super_Agente99
+@RENO_MAYOR @Dennis_Ferrada @JOSEPATRICIO_B @NHuldberg @lionalvawest @ludelvaldivia @kateflorcita @RommyStock
+@RicardoOrtizMJI @RobertoFinat @karofuentesg @jodavaba @carmenlachucara @Albertocuerquia @FafuC @busdevel95
+@iammakingmusic @jessicadiaz_m @JVialOchagavia @AraucaniaRT @Makeka @chilepuro @TheCorpis @carreragonzalo
